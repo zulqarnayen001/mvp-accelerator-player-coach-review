@@ -1,5 +1,5 @@
 M.V.P. ACCELERATOR, PLAYER-COACH TRACK
-Getting Started and Lessons 1 to 6, 165 screens, for the managers who coach an Athleader through the season
+Getting Started and Lessons 1 to 6, 162 screens, for the managers who coach an Athleader through the season
 
 HOW TO OPEN IT
 1. Unzip the folder anywhere on your computer. Keep every folder together.
@@ -8,9 +8,10 @@ HOW TO OPEN IT
      Review view.html    for QA: Next, the menu and every video timeline are unlocked
 3. Select Begin. Sound on: every screen has narration or video.
 
-Nothing to install. The course runs from the folder. You need an internet connection for the JotForm
-forms, which open inside the course on screens of their own, and for the calendar links and LinkedIn,
-which open in a new tab. If a form doesn't load, the link under it opens the same form in a new tab.
+Nothing to install. The course runs from the folder. The pre-assessment, the Pulse Checks and the
+post-assessment run inside the course on screens of their own: Deep's final questions (his Sept 26 item
+bank), scales, routing and codes. They stand in for his JotForm embeds until he sends the embed codes. You
+need an internet connection for the Wall of Fame form, the calendar links and LinkedIn.
 
 WHAT IS INSIDE
 Learner view.html, Review view.html   the course, two ways in
@@ -35,19 +36,19 @@ and lookback (6.12, that behavior next to what they write about it in Lesson 6).
 shows the two side by side. The top bar reads Player-Coach, and the Playbook is the Player-Coach one.
 
 CODES
-Each form shows a code on its last page; the next screen asks for it. To walk through without filling in a
-form:
-  Pre-assessment     PRE-6150     (opens Lesson 1)
-  Pulse Check        PULSE-7284   (completes each lesson and opens the next)
-  Post-assessment    POST-8039
-  Your 180           180-8816     (or, on the 180 intro, "My Athleader did not take part or did not finish")
-Codes are checked with case and spaces ignored. The Wall of Fame, the last screen, is optional and has no
-code.
+Each survey shows a code on its last page; the next screen asks for it. To walk through without filling in a
+survey:
+  Pre-assessment     DFQS9D       (opens Lesson 1)
+  Pulse Check        Lesson 1 BXMZZT, 2 ERCZDU, 3 B5N29K, 4 H69WKT, 5 J5N3N5, 6 DPQHD2
+                     (each one completes its lesson and opens the next)
+  Post-assessment    6EU3YP       (completes the course)
+Codes are checked with case and spaces ignored. The post-assessment ends with the questions about the
+Athleader (they replace the separate 180). The Wall of Fame, the last screen, is optional and has no code.
 
 CERTIFICATE
-After the 180 (or the confirmed escape), the certificate screen takes the manager's name and saves Melissa's
+After the post-assessment code, the certificate screen takes the manager's name and saves Melissa's
 certificate as a one-page PDF. It is a setting: in _generators/model_course.py, 'certificate':
-{'enabled': False} leaves the screen out of both tracks and the finish screen's button reads Continue.
+{'enabled': False} leaves the screen out and the finish screen's button reads Continue.
 
 THE TWO VIEWS
 Learner view: videos must be watched through before Next opens, each lesson opens only after the code

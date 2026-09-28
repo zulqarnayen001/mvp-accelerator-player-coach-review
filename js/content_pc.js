@@ -7,20 +7,1182 @@ window.COURSE = {
  },
  "forms": {
   "pre": {
-   "url": "https://form.jotform.com/262683052890058",
-   "code": "PRE-6150"
+   "code": "DFQS9D",
+   "local": {
+    "kind": "assessment",
+    "title": "M.V.P. Accelerator Benchmark Assessment",
+    "pages": [
+     {
+      "heading": "M.V.P. Accelerator Benchmark Assessment",
+      "intro": "Welcome.\n\nThis assessment establishes a baseline for how consistently your leadership shows up in practice, both in how you lead yourself and how you lead others.\n\nAthleadership is about more than what you know. It is about what you can access and consistently apply, especially as conditions change and pressure increases.\n\nThink about your leadership over the past two weeks. Rate what you actually did, not what you intended to do, know how to do, or believe you are capable of doing.\n\nThink consistency, not capability.\n\nA lower percentage is not a judgment of your leadership quality. It simply identifies where a behavior is not yet showing up consistently. Accurate responses give you the strongest baseline for measuring growth.\n\nThis assessment will take approximately 5 minutes.",
+      "items": []
+     },
+     {
+      "heading": "YOUR INFORMATION",
+      "intro": "Please share your name and email so we can link your responses to your place in the course.",
+      "items": [
+       {
+        "id": "A1",
+        "label": "First Name",
+        "type": "text",
+        "required": true
+       },
+       {
+        "id": "A2",
+        "label": "Last Name",
+        "type": "text",
+        "required": true
+       },
+       {
+        "id": "A3",
+        "label": "Work Email Address",
+        "type": "email",
+        "required": true
+       }
+      ]
+     },
+     {
+      "heading": "YOUR LEADERSHIP FOUNDATION · M.V.P.",
+      "intro": "Reflect on the clarity around your leadership mission, vision, and purpose, as you have experienced it over the past 2 weeks. For each statement, indicate how often it describes how you've led.\n\nIf you don't have one written yet, say so. That is a starting point, not a wrong answer.",
+      "items": [
+       {
+        "id": "1.0",
+        "label": "I referenced my written personal leadership mission when making decisions for myself and my team.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "I don't have one written",
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time"
+        ],
+        "break_after": "I don't have one written"
+       },
+       {
+        "id": "2.0",
+        "label": "I used my written leadership vision to guide how I showed up, in my role, in life, and as a coach for my team.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "I don't have one written",
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time"
+        ],
+        "break_after": "I don't have one written"
+       },
+       {
+        "id": "3.0",
+        "label": "I drew on my sense of purpose, which connects my work and life to a larger impact, through my family, team, organization, or broader community.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "I'm not clear on my purpose yet",
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time"
+        ],
+        "break_after": "I'm not clear on my purpose yet"
+       },
+       {
+        "id": "4.0",
+        "label": "I used my organization's values to guide my decisions and leadership behavior.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "5.0",
+        "label": "I used a clear 90-day view of my most important goals and priorities to track progress and guide where I focused my time and attention.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "I don't currently use a defined 90-day planning or tracking approach",
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time"
+        ],
+        "break_after": "I don't currently use a defined 90-day planning or tracking approach"
+       }
+      ]
+     },
+     {
+      "heading": "YOUR CORE 4 LEADERSHIP BEHAVIORS · AGILITY",
+      "intro": "The next four pages cover the Core 4: the four capacities the Accelerator is built to strengthen: Agility, Resilience, Alignment and Wellbeing. They are the things that either hold or slip when work gets harder, and they are what repeated practice is meant to make consistent. One page each.\n\nFirst, Agility. Reflect on how you've supported your team in responding to change, pressure, and shifting priorities. For each statement, indicate how often it reflects your leadership over the past 2 weeks.\n\nSome statements describe moments of change, pressure or uncertainty. Answer for the times those situations came up for you.",
+      "items": [
+       {
+        "id": "6.0",
+        "label": "When plans or priorities shifted, I adjusted my approach while staying focused on our most important business priorities.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "7.0",
+        "label": "Under pressure, I stayed calm and made decisions that helped move others forward.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "8.0",
+        "label": "I encouraged my team to make timely decisions and sustain momentum, even during times of uncertainty.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "YOUR CORE 4 LEADERSHIP BEHAVIORS · RESILIENCE",
+      "intro": "Second of the Core 4: Resilience.\n\nConsider how you've helped your team maintain energy, bounce back, and learn from challenges. Rate how often each statement describes your leadership over the past 2 weeks.",
+      "items": [
+       {
+        "id": "9.0",
+        "label": "When things were changing around me, I took intentional action to recharge my energy so I could stay productive and focused.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "10.0",
+        "label": "After setbacks or challenging situations, I recovered and became fully present for what came next.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "11.0",
+        "label": "When the right approach wasn't clear, I helped my team reflect on how they were working and adjust their approach based on lessons learned.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "YOUR CORE 4 LEADERSHIP BEHAVIORS · ALIGNMENT",
+      "intro": "Third of the Core 4: Alignment.\n\nThink about how you've created alignment around goals, communication, and shared priorities. Indicate how often each statement reflects your leadership over the past 2 weeks.",
+      "items": [
+       {
+        "id": "12.0",
+        "label": "Even when the bigger picture was unsettled, I made my top leadership priority for the week clear to my team, and left room for them to ask questions.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "13.0",
+        "label": "When someone raised a different perspective or disagreed, I stayed open to their input while helping us move toward a decision.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "14.0",
+        "label": "When business priorities shifted, I worked with my direct report(s) to clarify how their leadership growth goals align with the business 90-day priorities.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "YOUR CORE 4 LEADERSHIP BEHAVIORS · WELLBEING",
+      "intro": "Last of the Core 4: Wellbeing.\n\nThese items focus on how you've supported your team (and yourself) in managing energy, focus, and stress. Respond by rating how often each statement reflects your leadership over the past 2 weeks.",
+      "items": [
+       {
+        "id": "15.0",
+        "label": "I recognized when stress or increased demands were affecting my performance and took action to protect my energy and focus.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "16.0",
+        "label": "When demands increased, I helped my team make appropriate tradeoffs to sustain focus and performance.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "17.0",
+        "label": "I prioritized sleep, movement, or nutrition to support my energy and leadership effectiveness.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "LEADERSHIP OUTCOMES · TEAM EXECUTION & ALIGNMENT",
+      "intro": "Practice only counts when it holds up in real work.\n\nHere, we ask you to reflect on how you've helped your team stay aligned, deliver results, and maintain strong relationships, and how consistently that held when conditions made it harder. Rate how often each statement describes your leadership behavior over the past 2 weeks.",
+      "items": [
+       {
+        "id": "18.0",
+        "label": "I made decisions and took actions that supported our team's key deliverables and performance outcomes.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "19.0",
+        "label": "I kept my team's time, attention and actions focused on the priorities that mattered most.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "20.0",
+        "label": "When direction changed, I could still give my team a clear read on what mattered.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "21.0",
+        "label": "When conditions changed or pressure increased, I was able to access my best decision-making and leadership.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "22.0",
+        "label": "When we didn't have the answers we wanted, I could still give my team something solid to work from.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "LEADERSHIP REFLECTION",
+      "intro": "Use this space to reflect on your recent leadership experience. Share what's been most real or challenging for you as you lead others.\n\nWrite as much or as little as you like. A sentence is fine. These aren't scored.",
+      "items": [
+       {
+        "id": "23.0",
+        "label": "Describe one leadership challenge you've faced recently where you felt stretched between delivering results and developing others.",
+        "type": "textarea",
+        "required": false
+       },
+       {
+        "id": "24.0",
+        "label": "What's one leadership behavior you want to improve in how you support your team's performance?",
+        "type": "textarea",
+        "required": false
+       }
+      ]
+     }
+    ],
+    "rules": {},
+    "thanks": {
+     "heading": "Thank you for completing your Benchmark Assessment.",
+     "code": "DFQS9D",
+     "line": "Type this code into the code box in the course, then select Submit."
+    },
+    "submit": "Submit",
+    "next": "Next",
+    "back": "Back",
+    "required_msg": "Please answer every question on this page before you continue."
+   }
   },
   "pulse": {
-   "url": "https://form.jotform.com/262682631292056",
-   "code": "PULSE-7284"
+   "codes": [
+    "BXMZZT",
+    "ERCZDU",
+    "B5N29K",
+    "H69WKT",
+    "J5N3N5",
+    "DPQHD2"
+   ],
+   "local": {
+    "kind": "pulse",
+    "title": "M.V.P. Accelerator · Pulse Check (Player-Coach)",
+    "pages": [
+     {
+      "heading": "How often, in the last two weeks:",
+      "intro": "Five quick ratings about the last two weeks. You answer the same ones after every lesson, so your progress shows as a line across the season.",
+      "items": [
+       {
+        "id": "AGILITY",
+        "label": "AGILITY: When priorities changed unexpectedly, I adjusted quickly to stay focused on the business goal.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "1 Never",
+         "2 Rarely",
+         "3 Sometimes",
+         "4 Often",
+         "5 Almost always"
+        ],
+        "row": true
+       },
+       {
+        "id": "RESILIENCE",
+        "label": "RESILIENCE: After a setback, I took the lesson and moved, instead of carrying it.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "1 Never",
+         "2 Rarely",
+         "3 Sometimes",
+         "4 Often",
+         "5 Almost always"
+        ],
+        "row": true
+       },
+       {
+        "id": "ALIGNMENT",
+        "label": "ALIGNMENT: I said no to work that pulled me away from what matters most right now.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "1 Never",
+         "2 Rarely",
+         "3 Sometimes",
+         "4 Often",
+         "5 Almost always"
+        ],
+        "row": true
+       },
+       {
+        "id": "WELLBEING",
+        "label": "WELLBEING: I protected the recovery I need in order to keep performing.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "1 Never",
+         "2 Rarely",
+         "3 Sometimes",
+         "4 Often",
+         "5 Almost always"
+        ],
+        "row": true
+       },
+       {
+        "id": "REPS",
+        "label": "REPS: I ran the drill from the last lesson, and held this lesson's conversation with my Athleader.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "1 Never",
+         "2 Rarely",
+         "3 Sometimes",
+         "4 Often",
+         "5 Almost always"
+        ],
+        "row": true
+       }
+      ]
+     }
+    ],
+    "rules": {},
+    "thanks": {
+     "heading": "Thank you.",
+     "code": null,
+     "line": "Type this code into the code box in the course to complete your lesson."
+    },
+    "submit": "Submit my Pulse Check",
+    "next": "Next",
+    "back": "Back",
+    "required_msg": "Please answer every question before you submit."
+   }
   },
   "post": {
-   "url": "https://form.jotform.com/262683317700052",
-   "code": "POST-8039"
-  },
-  "r180": {
-   "url": "https://form.jotform.com/262674794192066",
-   "code": "180-8816"
+   "code": "6EU3YP",
+   "local": {
+    "kind": "assessment",
+    "title": "M.V.P. Accelerator Breakthrough Assessment",
+    "pages": [
+     {
+      "heading": "M.V.P. Accelerator Breakthrough Assessment",
+      "intro": "Welcome.\n\nThis assessment looks at how consistently your leadership is showing up in practice, both in how you lead yourself and how you lead others.\n\nAthleadership is about more than what you know. It is about what you can access and consistently apply, especially as conditions change and pressure increases.\n\nThink specifically about your leadership over the past two weeks. Rate what you actually did, not what you intended to do, know how to do, or believe you are capable of doing.\n\nThink consistency, not capability.\n\nThere is no expected amount of change. Accurate responses give you the clearest view of where your conditioning is now.\n\nWhen you finish, there is one more short section. It asks about one of the people you lead, so we can see leadership from more than one angle. Your results follow at the end.\n\nThis assessment will take approximately 5 minutes, plus about 3 minutes for the feedback section.",
+      "items": []
+     },
+     {
+      "heading": "YOUR INFORMATION",
+      "intro": "Please share your name and email so we can link your responses to your place in the course.",
+      "items": [
+       {
+        "id": "A1",
+        "label": "First Name",
+        "type": "text",
+        "required": true
+       },
+       {
+        "id": "A2",
+        "label": "Last Name",
+        "type": "text",
+        "required": true
+       },
+       {
+        "id": "A3",
+        "label": "Work Email Address",
+        "type": "email",
+        "required": true
+       }
+      ]
+     },
+     {
+      "heading": "YOUR LEADERSHIP FOUNDATION · M.V.P.",
+      "intro": "Reflect on the clarity around your leadership mission, vision, and purpose, as you have experienced it over the past 2 weeks. For each statement, indicate how often it describes how you've led.\n\nIf you don't have one written yet, say so. That is a starting point, not a wrong answer.",
+      "items": [
+       {
+        "id": "1.0",
+        "label": "I referenced my written personal leadership mission when making decisions for myself and my team.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "I don't have one written",
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time"
+        ],
+        "break_after": "I don't have one written"
+       },
+       {
+        "id": "2.0",
+        "label": "I used my written leadership vision to guide how I showed up, in my role, in life, and as a coach for my team.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "I don't have one written",
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time"
+        ],
+        "break_after": "I don't have one written"
+       },
+       {
+        "id": "3.0",
+        "label": "I drew on my sense of purpose, which connects my work and life to a larger impact, through my family, team, organization, or broader community.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "I'm not clear on my purpose yet",
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time"
+        ],
+        "break_after": "I'm not clear on my purpose yet"
+       },
+       {
+        "id": "4.0",
+        "label": "I used my organization's values to guide my decisions and leadership behavior.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "5.0",
+        "label": "I used a clear 90-day view of my most important goals and priorities to track progress and guide where I focused my time and attention.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "I don't currently use a defined 90-day planning or tracking approach",
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time"
+        ],
+        "break_after": "I don't currently use a defined 90-day planning or tracking approach"
+       }
+      ]
+     },
+     {
+      "heading": "YOUR CORE 4 LEADERSHIP BEHAVIORS · AGILITY",
+      "intro": "The next four pages cover the Core 4: the four capacities the Accelerator is built to strengthen: Agility, Resilience, Alignment and Wellbeing. They are the things that either hold or slip when work gets harder, and they are what repeated practice is meant to make consistent. One page each.\n\nFirst, Agility. Reflect on how you've supported your team in responding to change, pressure, and shifting priorities. For each statement, indicate how often it reflects your leadership over the past 2 weeks.\n\nSome statements describe moments of change, pressure or uncertainty. Answer for the times those situations came up for you.",
+      "items": [
+       {
+        "id": "6.0",
+        "label": "When plans or priorities shifted, I adjusted my approach while staying focused on our most important business priorities.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "7.0",
+        "label": "Under pressure, I stayed calm and made decisions that helped move others forward.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "8.0",
+        "label": "I encouraged my team to make timely decisions and sustain momentum, even during times of uncertainty.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "YOUR CORE 4 LEADERSHIP BEHAVIORS · RESILIENCE",
+      "intro": "Second of the Core 4: Resilience.\n\nConsider how you've helped your team maintain energy, bounce back, and learn from challenges. Rate how often each statement describes your leadership over the past 2 weeks.",
+      "items": [
+       {
+        "id": "9.0",
+        "label": "When things were changing around me, I took intentional action to recharge my energy so I could stay productive and focused.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "10.0",
+        "label": "After setbacks or challenging situations, I recovered and became fully present for what came next.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "11.0",
+        "label": "When the right approach wasn't clear, I helped my team reflect on how they were working and adjust their approach based on lessons learned.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "YOUR CORE 4 LEADERSHIP BEHAVIORS · ALIGNMENT",
+      "intro": "Third of the Core 4: Alignment.\n\nThink about how you've created alignment around goals, communication, and shared priorities. Indicate how often each statement reflects your leadership over the past 2 weeks.",
+      "items": [
+       {
+        "id": "12.0",
+        "label": "Even when the bigger picture was unsettled, I made my top leadership priority for the week clear to my team, and left room for them to ask questions.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "13.0",
+        "label": "When someone raised a different perspective or disagreed, I stayed open to their input while helping us move toward a decision.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "14.0",
+        "label": "When business priorities shifted, I worked with my direct report(s) to clarify how their leadership growth goals align with the business 90-day priorities.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "YOUR CORE 4 LEADERSHIP BEHAVIORS · WELLBEING",
+      "intro": "Last of the Core 4: Wellbeing.\n\nThese items focus on how you've supported your team (and yourself) in managing energy, focus, and stress. Respond by rating how often each statement reflects your leadership over the past 2 weeks.",
+      "items": [
+       {
+        "id": "15.0",
+        "label": "I recognized when stress or increased demands were affecting my performance and took action to protect my energy and focus.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "16.0",
+        "label": "When demands increased, I helped my team make appropriate tradeoffs to sustain focus and performance.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "17.0",
+        "label": "I prioritized sleep, movement, or nutrition to support my energy and leadership effectiveness.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "LEADERSHIP OUTCOMES · TEAM EXECUTION & ALIGNMENT",
+      "intro": "Practice only counts when it holds up in real work.\n\nHere, we ask you to reflect on how you've helped your team stay aligned, deliver results, and maintain strong relationships, and how consistently that held when conditions made it harder. Rate how often each statement describes your leadership behavior over the past 2 weeks.",
+      "items": [
+       {
+        "id": "18.0",
+        "label": "I made decisions and took actions that supported our team's key deliverables and performance outcomes.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "19.0",
+        "label": "I kept my team's time, attention and actions focused on the priorities that mattered most.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "20.0",
+        "label": "When direction changed, I could still give my team a clear read on what mattered.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "21.0",
+        "label": "When conditions changed or pressure increased, I was able to access my best decision-making and leadership.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       },
+       {
+        "id": "22.0",
+        "label": "When we didn't have the answers we wanted, I could still give my team something solid to work from.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I didn't have a relevant opportunity)"
+        ]
+       }
+      ]
+     },
+     {
+      "heading": "LEADERSHIP REFLECTION",
+      "intro": "Use this space to reflect on your recent leadership experience. Share what's been most real or challenging for you as you lead others.\n\nWrite as much or as little as you like. A sentence is fine. These aren't scored.",
+      "items": [
+       {
+        "id": "23.0",
+        "label": "Think of a specific moment during the Accelerator when conditions changed, something went wrong, people disagreed or pressure increased. Which practice or tool did you use, and what did it help you do differently, for yourself and for how you lead your team?",
+        "type": "textarea",
+        "required": false
+       },
+       {
+        "id": "24.0",
+        "label": "What's one leadership behavior you commit to sustaining and strengthening over the next 90 days?",
+        "type": "textarea",
+        "required": false
+       }
+      ]
+     },
+     {
+      "heading": "CLOSING FEEDBACK",
+      "intro": "The Accelerator is built on repeated practice, so the way you intend to lead becomes more consistently available when conditions change, the path is unclear or pressure increases.\n\nA few last questions before you see your results. The first three ask what you actually used. They don't count toward your score.",
+      "items": [
+       {
+        "id": "25.0",
+        "label": "Which of these best describes your 90-Day Way right now?",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "I haven't set one up yet",
+         "I've set one up, but I'm not really using it",
+         "I'm actively using it to keep my most important priorities visible, track progress and guide my actions"
+        ]
+       },
+       {
+        "id": "26.0",
+        "label": "Over the past two weeks, when conditions changed or pressure increased, how often did you use a practice, tool or approach from the M.V.P. Accelerator to guide what you did next?",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Almost Never",
+         "Occasionally",
+         "About Half the Time",
+         "Most of the Time",
+         "Nearly Every Time",
+         "N/A (I did not encounter a relevant situation)"
+        ]
+       },
+       {
+        "id": "27.0",
+        "label": "Which practices, tools or approaches did you use most often? Select up to two.",
+        "type": "check",
+        "required": false,
+        "max": 2,
+        "opts": [
+         "M.V.P.",
+         "90-Day Way",
+         "Agility practice/tool",
+         "Resilience/reset practice",
+         "Alignment practice/tool",
+         "Wellbeing practice/tool",
+         "Other (please describe)"
+        ],
+        "other": "Other (please describe)"
+       },
+       {
+        "id": "28.0",
+        "label": "Compared with the start of the Accelerator, how consistently can you now access your best decision-making and leadership when conditions change, the path is unclear or pressure increases?",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Much less consistently",
+         "Less consistently",
+         "About the same",
+         "More consistently",
+         "Much more consistently"
+        ]
+       },
+       {
+        "id": "29.0",
+        "label": "On a scale of 0 to 10, how likely are you to recommend this leadership experience to a colleague or peer?",
+        "type": "nps",
+        "required": true,
+        "low": "0 = Not at all likely",
+        "high": "10 = Extremely likely"
+       }
+      ]
+     },
+     {
+      "heading": "FEEDBACK ON YOUR DIRECT REPORT",
+      "intro": "You've completed the assessment of your own leadership. This last section is about one of the people you lead.\n\nPlease answer for the direct report you ran the Commitment Meeting with.\n\nYour answers are shared with them as feedback from their manager, alongside their own results. Please be direct and specific. Honest feedback is what makes this useful to them.\n\nThink about how they have led since the Accelerator began, compared with how they were leading before that.",
+      "items": [
+       {
+        "id": "F1",
+        "label": "Did you run a Commitment Meeting with a direct report who is taking part in the Accelerator?",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Yes",
+         "No"
+        ]
+       },
+       {
+        "id": "F2",
+        "label": "Their name",
+        "type": "text",
+        "required": false
+       },
+       {
+        "id": "F3",
+        "label": "Their work email address",
+        "type": "email",
+        "required": false
+       }
+      ]
+     },
+     {
+      "heading": "HOW THEY'VE LED",
+      "intro": "For each statement, tell us whether it happens more or less often now than it did before the Accelerator began.\n\nIf you haven't seen enough to judge, say so rather than guessing.",
+      "items": [
+       {
+        "id": "30.0",
+        "label": "Some leaders make decisions from a consistent set of principles. Others decide case by case.\nThis leader's decisions and leadership behaviors reflect a clear sense of what they stand for and our organization's values.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Much less often",
+         "Less often",
+         "About the same",
+         "More often",
+         "Much more often",
+         "Haven't seen enough of this"
+        ],
+        "break_before": "Haven't seen enough of this"
+       },
+       {
+        "id": "31.0",
+        "label": "Priorities change, sometimes with little warning. Leaders respond to that differently.\nWhen priorities or conditions change, this leader adjusts their approach while staying focused on what matters most.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Much less often",
+         "Less often",
+         "About the same",
+         "More often",
+         "Much more often",
+         "Haven't seen enough of this"
+        ],
+        "break_before": "Haven't seen enough of this"
+       },
+       {
+        "id": "32.0",
+        "label": "Every role involves setbacks. Some people move on from them quickly, others stay with them longer.\nAfter setbacks or difficult moments, this leader recovers, refocuses and adjusts based on what they learn.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Much less often",
+         "Less often",
+         "About the same",
+         "More often",
+         "Much more often",
+         "Haven't seen enough of this"
+        ],
+        "break_before": "Haven't seen enough of this"
+       },
+       {
+        "id": "33.0",
+        "label": "Leaders differ in how much they spell out what matters most right now.\nThis leader creates clarity around priorities and helps turn direction into action.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Much less often",
+         "Less often",
+         "About the same",
+         "More often",
+         "Much more often",
+         "Haven't seen enough of this"
+        ],
+        "break_before": "Haven't seen enough of this"
+       },
+       {
+        "id": "34.0",
+        "label": "How a leader manages their own energy tends to show in how they turn up.\nWhen demands increase, this leader manages their focus and capacity in ways that support sustained performance.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Much less often",
+         "Less often",
+         "About the same",
+         "More often",
+         "Much more often",
+         "Haven't seen enough of this"
+        ],
+        "break_before": "Haven't seen enough of this"
+       },
+       {
+        "id": "35.0",
+        "label": "Leaders can have intentions. Turning them into finished work takes something else, and leaders differ in how well they do it.\nThis leader turns priorities into decisions and follow-through that keep important work moving.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Much less often",
+         "Less often",
+         "About the same",
+         "More often",
+         "Much more often",
+         "Haven't seen enough of this"
+        ],
+        "break_before": "Haven't seen enough of this"
+       },
+       {
+        "id": "36.0",
+        "label": "Leaders often know what they want to do, and still find it harder to do when conditions get hard.\nWhen conditions change or pressure increases, this leader continues to demonstrate effective decision-making and leadership.",
+        "type": "radio",
+        "required": true,
+        "opts": [
+         "Much less often",
+         "Less often",
+         "About the same",
+         "More often",
+         "Much more often",
+         "Haven't seen enough of this"
+        ],
+        "break_before": "Haven't seen enough of this"
+       }
+      ]
+     },
+     {
+      "heading": "IN YOUR OWN WORDS",
+      "intro": "One short question. A sentence is enough.",
+      "items": [
+       {
+        "id": "37.0",
+        "label": "What is one meaningful change, if any, you have noticed in how this person leads since the start of the Accelerator?",
+        "type": "textarea",
+        "required": false
+       }
+      ]
+     }
+    ],
+    "rules": {
+     "27.0": {
+      "hide_if": {
+       "26.0": [
+        "Almost Never",
+        "N/A (I did not encounter a relevant situation)"
+       ]
+      }
+     },
+     "F2": {
+      "hide_if": {
+       "F1": [
+        "No"
+       ]
+      }
+     },
+     "F3": {
+      "hide_if": {
+       "F1": [
+        "No"
+       ]
+      }
+     },
+     "_skip_pages_after_F1": {
+      "F1": [
+       "No"
+      ]
+     }
+    },
+    "thanks": {
+     "heading": "Thank you for completing your Breakthrough Assessment.",
+     "code": "6EU3YP",
+     "line": "Type this code into the code box in the course, then select Submit."
+    },
+    "submit": "Submit",
+    "next": "Next",
+    "back": "Back",
+    "required_msg": "Please answer every question on this page before you continue."
+   }
   },
   "wall": {
    "url": "https://form.jotform.com/262674792979077"
@@ -302,7 +1464,7 @@ window.COURSE = {
    "cover_alt": "Cover of the {track} Playbook"
   },
   "pre": {
-   "stat": "10"
+   "stat": "5"
   },
   "ready": {
    "heading": "You're ready",
@@ -518,7 +1680,7 @@ window.COURSE = {
    "then_now": "{p}: Lesson 1 {a}, today {b}"
   },
   "certificate": {
-   "locked": "Your certificate unlocks when you finish your 180",
+   "locked": "Your certificate unlocks when you enter your post-assessment code",
    "preview": "Your certificate, as it will print",
    "date_format": "MMMM D, YYYY"
   },
@@ -610,7 +1772,7 @@ window.SCREENS = [
    {
     "n": 1,
     "title": "Your pre-assessment",
-    "text": "About 10 minutes. It opens on the next screen.",
+    "text": "About 5 minutes. It opens on the next screen.",
     "action": "next",
     "c": 1
    },
@@ -652,9 +1814,9 @@ window.SCREENS = [
   "photo": "man_writing",
   "eyebrow": "YOUR STARTING POINT",
   "heading": "How you lead today",
-  "stat": "10",
+  "stat": "5",
   "stat_text": "minutes now, and the same questions after Lesson 6",
-  "note_tag": "BY EMAIL",
+  "note_tag": "WITH YOUR RESULTS",
   "note": "Your Growth Guide: where you stand as a leader today",
   "lesson": "L0",
   "vo": [
@@ -822,7 +1984,7 @@ window.SCREENS = [
   "photo": "glass_meeting",
   "kicker": "LESSON 1",
   "heading": "Suit Up: Your Leadership M.V.P.",
-  "meta": "About 30 minutes here, then about 50 minutes in your week, including one conversation",
+  "meta": "About 40 minutes here, then about 50 minutes in your week, including one conversation",
   "cta": "Start lesson",
   "lesson": "L1",
   "vo": [
@@ -1328,7 +2490,7 @@ window.SCREENS = [
   "photo": "coach_board",
   "kicker": "LESSON 2",
   "heading": "The Leader's Scouting Report",
-  "meta": "About 30 minutes here, then about an hour in your week",
+  "meta": "About 40 minutes here, then about an hour in your week",
   "cta": "Start lesson",
   "lesson": "L2",
   "vo": [
@@ -1851,7 +3013,7 @@ window.SCREENS = [
   "photo": "team_desk",
   "kicker": "LESSON 3",
   "heading": "The 90-Day Way Game Plan",
-  "meta": "About 30 minutes here, then about 50 minutes in your week, including one team meeting",
+  "meta": "About 40 minutes here, then about 50 minutes in your week, including one team meeting",
   "cta": "Start lesson",
   "lesson": "L3",
   "vo": [
@@ -2359,7 +3521,7 @@ window.SCREENS = [
   "photo": "tennis",
   "kicker": "LESSON 4",
   "heading": "Activate Your M.V.P. Under Pressure",
-  "meta": "About 30 minutes here, then about 40 minutes in your week",
+  "meta": "About 40 minutes here, then about 40 minutes in your week",
   "cta": "Start lesson",
   "lesson": "L4",
   "vo": [
@@ -2839,7 +4001,7 @@ window.SCREENS = [
   "photo": "sprinter",
   "kicker": "LESSON 5",
   "heading": "Play the Season: Sustainable Performance",
-  "meta": "About 30 minutes here, then about 55 minutes in your week",
+  "meta": "About 40 minutes here, then about 55 minutes in your week",
   "cta": "Start lesson",
   "lesson": "L5",
   "vo": [
@@ -3310,7 +4472,7 @@ window.SCREENS = [
   "photo": "celebrate",
   "kicker": "LESSON 6",
   "heading": "The Victory Lap and the Next Season",
-  "meta": "About 30 minutes here, then about an hour for your Playbook, the post-assessment and your 180",
+  "meta": "About 40 minutes here, then about an hour for your Playbook and the post-assessment",
   "cta": "Start lesson",
   "lesson": "L6",
   "vo": [
@@ -3774,8 +4936,8 @@ window.SCREENS = [
   "eyebrow": "ONE LAST STEP",
   "heading": "Your post-assessment",
   "line": "See what changed since your starting point.",
-  "stat": "10",
-  "stat_text": "minutes, the same questions you answered before Lesson 1",
+  "stat": "8",
+  "stat_text": "minutes: the same questions as before Lesson 1, then a few about your Athleader",
   "lesson": "L6",
   "vo": [
    "r2_pc_E1"
@@ -3806,59 +4968,11 @@ window.SCREENS = [
   "heading": "Enter your code",
   "prompt": "The code from the last page of the post-assessment",
   "button": "Submit",
-  "ok": "Accepted. One step left: your 180.",
-  "back": "Back to the form",
-  "lesson": "L6",
-  "vo": [
-   "pc_n_E2"
-  ]
- },
- {
-  "id": "E3",
-  "type": "r180",
-  "menu": "Your 180",
-  "photo": "pair_laptop",
-  "eyebrow": "YOUR 180",
-  "heading": "Your view of your Athleader",
-  "caption": "Their growth, as you saw it",
-  "escape": "My Athleader did not take part or did not finish",
-  "escape_confirm": "Choose this only if your Athleader did not take part in the experience or did not finish it. Your organization can see that this step was skipped.",
-  "lesson": "L6",
-  "vo": [
-   "r2_pc_E3"
-  ],
-  "next_line": "The 180 opens on the next screen.",
-  "escape_on_intro": true
- },
- {
-  "id": "E3a",
-  "type": "formembed",
-  "menu": "Your 180: the form",
-  "form": "r180",
-  "eyebrow": "YOUR 180",
-  "heading": "Your view of your Athleader",
-  "note": "Your code is on the last page. Note it down, then select Next.",
-  "fallback": "Form not loading? Open it in a new tab",
-  "lesson": "L6",
-  "vo": [
-   "r2_form_180_pc"
-  ]
- },
- {
-  "id": "E3b",
-  "type": "formcode",
-  "menu": "Your 180: your code",
-  "form": "r180",
-  "gate": "r180",
-  "eyebrow": "YOUR 180",
-  "heading": "Enter your code",
-  "prompt": "The code from the last page of the 180",
-  "button": "Submit",
   "ok": "Accepted. Your course is complete.",
   "back": "Back to the form",
   "lesson": "L6",
   "vo": [
-   "r2_code_180"
+   "pc_n_E2"
   ]
  },
  {

@@ -1182,12 +1182,88 @@
     window.addEventListener('message', e => { if (e.source === f.ifr.contentWindow) f.show(); });
     return f;
   }
+  /* ----- Local survey (Sept 28) -----
+     Deep's pre- and post-assessments (and the Pulse Check) drawn inside the course, where the JotForm embed sat,
+     from C.forms[form].local: pages, items, answer scales, routing and the completion code on the last page.
+     A stand-in until Deep's JotForm embeds arrive; answers stay in memory and are not sent anywhere. */
+  const svy = {};
+  const svyNL = t => esc(t).replace(/\n/g, '<br>');
+  function svyMount(s) {
+    const F = C.forms[s.form], D = F.local, id = s.form + (s.n || ''), box = $('#svy');
+    const T = svy[id] || (svy[id] = { page: 0, ans: {}, done: false });
+    const code = s.form === 'pulse' ? F.codes[s.n - 1] : F.code;
+    const qn = q => 'q_' + q.id.replace(/[^A-Za-z0-9]/g, '_');
+    const hidden = q => { const r = D.rules[q.id]; return !!(r && r.hide_if && Object.keys(r.hide_if).some(k => r.hide_if[k].includes(T.ans[k]))); };
+    const skipRest = () => { const r = D.rules._skip_pages_after_F1; return !!(r && r.F1.includes(T.ans.F1)); };
+    const isLast = () => T.page === D.pages.length - 1 || (D.pages[T.page].items.some(q => q.id === 'F1') && skipRest());
+    const opt = (q, o, type) => {
+      const on = type === 'checkbox' ? (T.ans[q.id] || []).includes(o) : T.ans[q.id] === o;
+      return `<label class="svy-opt"><input type="${type}" name="${qn(q)}" value="${esc(o)}"${on ? ' checked' : ''}><span>${esc(o)}</span></label>`;
+    };
+    const qHtml = q => {
+      const req = q.required ? '<span class="svy-req" aria-hidden="true">*</span>' : '';
+      if (q.type === 'radio' || q.type === 'check') {
+        const type = q.type === 'radio' ? 'radio' : 'checkbox';
+        const opts = q.opts.map(o => (o === q.break_before ? '<hr class="svy-break">' : '') + opt(q, o, type) + (o === q.break_after ? '<hr class="svy-break">' : '')).join('');
+        const other = q.other && (T.ans[q.id] || []).includes(q.other) ? `<input class="svy-in svy-other" id="${qn(q)}_other" aria-label="${esc(q.other)}" value="${esc(T.ans[q.id + '_other'] || '')}">` : '';
+        const hint = q.max ? `<span class="svy-hint">Select up to ${q.max}.</span>` : '';
+        return `<fieldset class="svy-q" data-q="${esc(q.id)}"><legend>${svyNL(q.label)}${req}</legend>${hint}<div class="svy-opts${q.row ? ' row' : ''}">${opts}</div>${other}</fieldset>`;
+      }
+      if (q.type === 'nps') {
+        return `<fieldset class="svy-q" data-q="${esc(q.id)}"><legend>${svyNL(q.label)}${req}</legend><div class="svy-nps">${Array.from({ length: 11 }, (_, i) => opt(q, String(i), 'radio')).join('')}</div><div class="svy-npsl"><span>${esc(q.low)}</span><span>${esc(q.high)}</span></div></fieldset>`;
+      }
+      const tag = q.type === 'textarea' ? `<textarea class="svy-in" id="${qn(q)}" rows="3">${esc(T.ans[q.id] || '')}</textarea>`
+        : `<input class="svy-in" id="${qn(q)}" type="${q.type === 'email' ? 'email' : 'text'}" autocomplete="${q.type === 'email' ? 'email' : 'off'}" value="${esc(T.ans[q.id] || '')}">`;
+      return `<div class="svy-q" data-q="${esc(q.id)}"><label for="${qn(q)}">${svyNL(q.label)}${req}</label>${tag}</div>`;
+    };
+    const missing = () => D.pages[T.page].items.filter(q => q.required && !hidden(q)).filter(q => {
+      const v = T.ans[q.id];
+      if (q.type === 'email') return !(v && /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v));
+      return q.type === 'check' ? !(v && v.length) : !(v && String(v).trim());
+    });
+    function draw(keepScroll) {
+      const prev = keepScroll && $('.svy-body', box) ? $('.svy-body', box).scrollTop : 0;
+      if (T.done) {
+        box.innerHTML = `<div class="svy-top"><span class="svy-title">${esc(D.title)}</span></div><div class="svy-thanks"><h2>${esc(D.thanks.heading)}</h2><p>Your completion code is</p><div class="svy-code">${esc(code)}</div><p>${esc(D.thanks.line)}</p></div>`;
+        return;
+      }
+      const p = D.pages[T.page];
+      box.innerHTML = `<div class="svy-top"><span class="svy-title">${esc(D.title)}</span>${D.pages.length > 1 ? `<span class="svy-prog">Page ${T.page + 1} of ${D.pages.length}</span>` : ''}</div>
+        <div class="svy-body" tabindex="-1"><h2 class="svy-h">${esc(p.heading)}</h2>${(p.intro || '').split(/\n\n+/).filter(Boolean).map(x => `<p class="svy-intro">${svyNL(x)}</p>`).join('')}
+        ${p.items.filter(q => !hidden(q)).map(qHtml).join('')}<div class="svy-err" role="alert" id="svyErr"></div></div>
+        <div class="svy-foot">${T.page > 0 ? `<button class="btn ghost" id="svyBack">${IC.arrowL}${esc(D.back)}</button>` : '<span></span>'}<button class="btn" id="svyNext">${esc(isLast() ? D.submit : D.next)}</button></div>`;
+      const body = $('.svy-body', box); body.scrollTop = prev;
+      $$('.svy-q', box).forEach(el => {
+        const q = p.items.find(x => x.id === el.dataset.q);
+        el.addEventListener('input', e => {
+          const t = e.target;
+          if (t.classList.contains('svy-other')) { T.ans[q.id + '_other'] = t.value; return; }
+          if (q.type === 'check') {
+            const vals = $$('input[type=checkbox]', el).filter(x => x.checked).map(x => x.value);
+            if (q.max && vals.length > q.max) { t.checked = false; return; }
+            T.ans[q.id] = vals;
+          } else T.ans[q.id] = t.value;
+          const touches = Object.values(D.rules).some(r => r && Object.keys(r.hide_if || r).includes(q.id));
+          if (touches || q.other) draw(true);
+        });
+      });
+      $('#svyNext', box).addEventListener('click', () => {
+        const m = missing(), err = $('#svyErr', box);
+        if (m.length) { err.textContent = D.required_msg; const f = $(`[data-q="${m[0].id}"] input, [data-q="${m[0].id}"] textarea`, box); if (f) f.focus(); return; }
+        if (isLast()) { T.done = true; logInteraction('survey_' + id, 'other', 'submitted', 'neutral'); draw(); return; }
+        T.page++; draw(); $('.svy-body', box).focus();
+      });
+      const b = $('#svyBack', box); if (b) b.addEventListener('click', () => { T.page--; draw(); $('.svy-body', box).focus(); });
+    }
+    draw();
+  }
   R.formembed = s => {
     const FE = U.formembed, id = s.form + (s.n || '');
     return {
       cls: 'mist formscreen', html: `<div class="formhead"><div>${eyebrow(s.eyebrow, 0)}<h1 class="b" data-c="0">${esc(s.heading)}</h1></div><p class="note b" data-c="0">${s.optional ? STAR : IC.key}<span>${esc(s.note)}</span></p></div>
-      <div class="formcard b z" data-c="0"><div class="formloading" id="formLoading" role="status"><span class="spin" aria-hidden="true"></span><span>${esc(FE.loading)}</span></div></div>`,
+      <div class="formcard b z" data-c="0">${C.forms[s.form].local ? '<div class="svy" id="svy"></div>' : `<div class="formloading" id="formLoading" role="status"><span class="spin" aria-hidden="true"></span><span>${esc(FE.loading)}</span></div>`}</div>`,
       after: () => {
+        if (C.forms[s.form].local) { svyMount(s); return; }
         const f = formFrame(s);
         slide.dataset.form = id;
         if (f.ready) $('#formLoading').classList.add('done');
@@ -1201,6 +1277,8 @@
     };
   };
 
+  /* One code per survey; the Pulse Check has one code per lesson (Deep's sheet, Sept 28) when C.forms.pulse.codes is set. */
+  const formCode = s => (s.form === 'pulse' && C.forms.pulse.codes) ? C.forms.pulse.codes[s.n - 1] : C.forms[s.form].code;
   R.formcode = s => {
     const FC = U.formcode, open = gateOpen(s);
     const first = s.form === 'pre' ? FC.cta_pre : FC.cta;
@@ -1212,10 +1290,11 @@
         bindNext();
         $('#backForm').addEventListener('click', () => go(S.findIndex(x => x.type === 'formembed' && x.form === s.form && x.n === s.n)));
         if (open) return;
-        bindCode('fc', C.forms[s.form].code, () => {
+        bindCode('fc', formCode(s), () => {
           st.gates[s.gate] = true;
           logInteraction(s.form === 'pulse' ? 'pulse_check_L' + s.n : s.form + '_code', 'fill-in', 'accepted', 'correct');
-          if (s.gate === 'r180') complete();
+          // The course completes on the 180 code when the track has a 180 step; since Sept 28 the 180 sits inside the post survey, so the post code completes it.
+          if (s.gate === 'r180' || (s.gate === 'post' && !S.some(x => x.type === 'r180'))) complete();
           save(); render(false); const b = $('#cta'); if (b) b.focus();
         }, FC.err);
       }
@@ -1586,7 +1665,8 @@
       ['cmi.suspend_data (chars)', JSON.stringify(st).length + ' of 64,000'],
       ['Gate: pre-assessment', st.gates.pre ? 'accepted' : 'open']];
     for (let n = 1; n <= 6; n++) rows.push([`Gate: Pulse Check L${n}`, st.gates['pulse' + n] ? 'accepted' : 'open']);
-    rows.push(['Gate: post-assessment', st.gates.post ? 'accepted' : 'open'], ['Gate: 180', st.gates.r180 ? 'accepted' : (st.no180 ? 'skipped (confirmed)' : 'open')]);
+    rows.push(['Gate: post-assessment', st.gates.post ? 'accepted' : 'open']);
+    if (S.some(x => x.type === 'r180')) rows.push(['Gate: 180', st.gates.r180 ? 'accepted' : (st.no180 ? 'skipped (confirmed)' : 'open')]);
     return rows;
   }
   function buildPanel() {
@@ -1594,7 +1674,7 @@
       <h3>Learner</h3><p class="small">In an LMS the name comes from cmi.core.student_name. Set one here to see how it shows.</p><div class="row"><input id="pFirst" value="${esc(st.learner.first)}" aria-label="First name" style="flex:1;padding:6px"><input id="pLast" value="${esc(st.learner.last)}" aria-label="Last name" style="flex:1;padding:6px"><input id="pId" value="${esc(st.learner.id)}" aria-label="Learner ID" style="flex:1;padding:6px"><button class="btn sm" id="pSave">Set</button></div>
       <h3>Navigation</h3><label style="display:flex;gap:8px;align-items:center"><input type="checkbox" id="pFree" ${st.free ? 'checked' : ''} ${MODE === 'review' ? 'disabled' : ''}> Free navigation (skip video and code gates)${MODE === 'review' ? ', always on in the review view' : ''}</label>
       <div class="row"><select id="pJump" aria-label="Jump to screen">${S.map((x, i) => `<option value="${i}" ${i === st.pos ? 'selected' : ''}>${x.id} · ${esc(x.menu)}</option>`).join('')}</select><button class="btn sm" id="pGo">Go</button><button class="btn sm ghost" id="pReset">Reset learner</button></div>
-      <h3>Codes</h3><table><tr><td>Pre-assessment</td><td>${C.forms.pre.code}</td></tr><tr><td>Pulse Check</td><td>${C.forms.pulse.code}</td></tr><tr><td>Post-assessment</td><td>${C.forms.post.code}</td></tr><tr><td>180</td><td>${C.forms.r180.code}</td></tr></table>
+      <h3>Codes</h3><table><tr><td>Pre-assessment</td><td>${C.forms.pre.code}</td></tr>${C.forms.pulse.codes ? C.forms.pulse.codes.map((c, i) => `<tr><td>Pulse Check, Lesson ${i + 1}</td><td>${c}</td></tr>`).join('') : `<tr><td>Pulse Check</td><td>${C.forms.pulse.code}</td></tr>`}<tr><td>Post-assessment</td><td>${C.forms.post.code}</td></tr>${C.forms.r180 && S.some(x => x.type === 'r180') ? `<tr><td>180</td><td>${C.forms.r180.code}</td></tr>` : ''}</table>
       <h3>Settings</h3><table><tr><td>Track</td><td>${esc(C.track)}</td></tr><tr><td>Certificate screen (COURSE.certificate.enabled)</td><td>${certOn() ? 'on' : 'off'}</td></tr><tr><td>Saved state key</td><td>${KEY}</td></tr></table>
       <h3>SCORM data</h3><table>${cmi().map(r => `<tr><td>${r[0]}</td><td>${esc(r[1])}</td></tr>`).join('')}</table>
       <h3>cmi.interactions (${st.interactions.length})</h3><table>${st.interactions.slice(-25).reverse().map(x => `<tr><td>${esc(x.id)}</td><td>${esc(x.type)} · ${esc(x.response)} · ${esc(x.result)}</td></tr>`).join('')}</table>`;
