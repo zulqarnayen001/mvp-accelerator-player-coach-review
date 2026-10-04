@@ -14,7 +14,7 @@ window.COURSE = {
     "pages": [
      {
       "heading": "M.V.P. Accelerator Benchmark Assessment",
-      "intro": "Welcome.\n\nThis assessment establishes a baseline for how consistently your leadership shows up in practice, both in how you lead yourself and how you lead others.\n\nAthleadership is about more than what you know. It is about what you can access and consistently apply, especially as conditions change and pressure increases.\n\nThink about your leadership over the past two weeks. Rate what you actually did, not what you intended to do, know how to do, or believe you are capable of doing.\n\nThink consistency, not capability.\n\nA lower percentage is not a judgment of your leadership quality. It simply identifies where a behavior is not yet showing up consistently. Accurate responses give you the strongest baseline for measuring growth.\n\nThis assessment will take approximately 5 minutes.",
+      "intro": "Welcome.\n\nThis assessment establishes a baseline for how consistently your leadership shows up in practice, both in how you lead yourself and how you lead others.\n\nAthleadership is about more than what you know. It is about what you can access and consistently apply, especially as conditions change and pressure increases.\n\nThink about your leadership over the past two weeks. Rate what you actually did, not what you intended to do, know how to do, or believe you are capable of doing.\n\nThink consistency, not capability.\n\nA lower percentage is not a judgment of your leadership quality. It simply identifies where a behavior is not yet showing up consistently. Accurate responses give you the strongest baseline for measuring growth.\n\nThis assessment will take approximately 10 minutes.",
       "items": []
      },
      {
@@ -521,7 +521,7 @@ window.COURSE = {
     "pages": [
      {
       "heading": "How often, in the last two weeks:",
-      "intro": "Five quick ratings about the last two weeks. You answer the same ones after every lesson, so your progress shows as a line across the season.",
+      "intro": "Five quick ratings about the last two weeks. You answer the same ones after every lesson, so the change shows across the season.",
       "items": [
        {
         "id": "AGILITY",
@@ -593,7 +593,7 @@ window.COURSE = {
       "items": [
        {
         "id": "REPS",
-        "label": "REPS: I ran the drill from the last lesson, and held this lesson's conversation with my Athleader.",
+        "label": "REPS: I put in my reps from my Playbook, including the conversation with my Athleader.",
         "type": "radio",
         "required": true,
         "opts": [
@@ -612,9 +612,9 @@ window.COURSE = {
     "thanks": {
      "heading": "Thank you.",
      "code": null,
-     "line": "Type this code into the code box in the course to complete your lesson."
+     "line": "Type this code into the code box in the course, then select Submit."
     },
-    "submit": "Submit my Pulse Check",
+    "submit": "Submit",
     "next": "Next",
     "back": "Back",
     "required_msg": "Please answer every question before you submit."
@@ -628,7 +628,7 @@ window.COURSE = {
     "pages": [
      {
       "heading": "M.V.P. Accelerator Breakthrough Assessment",
-      "intro": "Welcome.\n\nThis assessment looks at how consistently your leadership is showing up in practice, both in how you lead yourself and how you lead others.\n\nAthleadership is about more than what you know. It is about what you can access and consistently apply, especially as conditions change and pressure increases.\n\nThink specifically about your leadership over the past two weeks. Rate what you actually did, not what you intended to do, know how to do, or believe you are capable of doing.\n\nThink consistency, not capability.\n\nThere is no expected amount of change. Accurate responses give you the clearest view of where your conditioning is now.\n\nWhen you finish, there is one more short section. It asks about one of the people you lead, so we can see leadership from more than one angle. Your results follow at the end.\n\nThis assessment will take approximately 5 minutes, plus about 3 minutes for the feedback section.",
+      "intro": "Welcome.\n\nThis assessment looks at how consistently your leadership is showing up in practice, both in how you lead yourself and how you lead others.\n\nAthleadership is about more than what you know. It is about what you can access and consistently apply, especially as conditions change and pressure increases.\n\nThink specifically about your leadership over the past two weeks. Rate what you actually did, not what you intended to do, know how to do, or believe you are capable of doing.\n\nThink consistency, not capability.\n\nThere is no expected amount of change. Accurate responses give you the clearest view of where your conditioning is now.\n\nWhen you finish, there is one more short section. It asks about one of the people you lead, so we can see leadership from more than one angle. Your results follow at the end.\n\nThis assessment will take approximately 10 minutes, plus about 3 minutes for the feedback section.",
       "items": []
      },
      {
@@ -1419,6 +1419,55 @@ window.COURSE = {
   }
  },
  "book_url": "https://athleadershipmovement.com",
+ "brand": {
+  "lockup": "assets/brand/lockup.png",
+  "lockup_white": "assets/brand/lockup_white.png",
+  "alt": "M.V.P. Accelerator, powered by Athleadership Arena"
+ },
+ "photo_pos": {
+  "ai_ai_rollout": "92% 40%",
+  "ai_celebration_team": "50% 40%",
+  "ai_coach_colleague": "58% 18%",
+  "ai_court_line_detail": "78% 60%",
+  "ai_focus_eyes": "64% 40%",
+  "ai_handshake_commitment": "55% 20%",
+  "ai_individual_notebook": "96% 40%",
+  "ai_leader_with_reports": "66% 45%",
+  "ai_man_assessment": "45% 40%",
+  "ai_man_leads_standup": "55% 40%",
+  "ai_older_leader_window": "72% 40%",
+  "ai_pressure_desk": "74% 50%",
+  "ai_reflect_window_woman": "70% 40%",
+  "ai_rowing_detail": "62% 60%",
+  "ai_senior_woman_table": "52% 45%",
+  "ai_soccer_night": "44% 50%",
+  "ai_start_line_detail": "40% 60%",
+  "ai_team_reorg": "98% 40%",
+  "ai_tunnel_light": "80% 50%",
+  "ai_walk_and_talk": "68% 45%",
+  "ai_pc_manager_listening": "70% 45%",
+  "ai_pc_team_huddle": "64% 8%",
+  "ai_pc_window_call": "76% 40%",
+  "ai_pc_checkin_coffee": "73% 45%",
+  "ai_pc_whiteboard_plan": "84% 45%",
+  "ai_pc_recognition": "66% 18%",
+  "ai_pc_focus_hands": "75% 55%",
+  "ai_pc_stadium_stairs": "74% 50%",
+  "ai_pc_team_win": "65% 45%",
+  "ai_pc_coach_walk": "75% 45%",
+  "woman_confident": "45% 8%",
+  "highfive": "50% 10%",
+  "celebrate": "50% 85%"
+ },
+ "motion": {
+  "L0": "momentum",
+  "L1": "shift",
+  "L2": "pressure",
+  "L3": "progression",
+  "L4": "adapt",
+  "L5": "pivot",
+  "L6": "resilience"
+ },
  "resources": [
   {
    "label": "Player-Coach Playbook (full)",
@@ -1469,7 +1518,7 @@ window.COURSE = {
    "tag": "PDF"
   },
   {
-   "label": "The 90-Day Way Core 4 Scorecard",
+   "label": "The 90-Day Way Scorecard",
    "note": "For your own 90-day leadership goal",
    "href": "resources/90-Day_Way_Core_4_Scorecard.pdf",
    "tag": "PDF"
@@ -1520,17 +1569,38 @@ window.COURSE = {
  ],
  "melissa": {
   "name": "Melissa Dawn Simkins",
-  "role": "Commissioner of the Arena & Head Coach",
+  "role": "Founder, Athleadership, and Head Coach",
   "img": "assets/photos/melissa.jpg"
  },
  "patterns": [
-  "PROVE",
-  "CARRY",
-  "CONTROL",
-  "WAIT",
-  "FIX",
-  "SOFTEN",
-  "REPLAY"
+  [
+   "PROVE",
+   "Show you can handle it alone"
+  ],
+  [
+   "CARRY",
+   "Take on everyone else's load"
+  ],
+  [
+   "CONTROL",
+   "Grip every detail"
+  ],
+  [
+   "WAIT",
+   "Hold off until you're sure"
+  ],
+  [
+   "FIX",
+   "Jump straight to a solution"
+  ],
+  [
+   "PLEASE",
+   "Smooth it over so no one is upset"
+  ],
+  [
+   "SPIRAL",
+   "Keep going over what happened"
+  ]
  ],
  "checkin": [
   {
@@ -1609,8 +1679,8 @@ window.COURSE = {
  ],
  "ui": {
   "start": {
-   "title": "M.V.P. Accelerator",
-   "body": "This course has narration and video on every screen, so turn your sound on. Captions are on by default.",
+   "title": "Welcome to the M.V.P. Accelerator",
+   "body": "This conditioning experience has narration and video on every screen. Please turn your sound on. Captions are on by default.",
    "begin": "Begin",
    "back_title": "Welcome back",
    "back_body": "Pick up where you left off?",
@@ -1626,6 +1696,16 @@ window.COURSE = {
    "close": "You can close this window.",
    "return": "Return to the course"
   },
+  "end": {
+   "badge": "Season complete",
+   "title": "That's your season, Player-Coach.",
+   "photo": "ai_celebration_team",
+   "line": "You finished the M.V.P. Accelerator. Your certificate, your Playbook and your answers are yours to keep. You can close this window now.",
+   "again": "Back to the course"
+  },
+  "transcript": {
+   "intro": "Everything said on this screen, written out, for when you can't play sound or want to read along."
+  },
   "cover": {
    "brand": "M.V.P. Accelerator",
    "season": "Your season"
@@ -1640,7 +1720,8 @@ window.COURSE = {
   "sponsor": {
    "eyebrow": "A message from {org}",
    "line": "Why {org} chose this season for its leaders.",
-   "placeholder": "Video to come"
+   "placeholder": "Video to come",
+   "placeholder_note": "The video from your organization plays here."
   },
   "setup": {
    "next_tag": "Next screen",
@@ -1649,7 +1730,7 @@ window.COURSE = {
    "ics": "Apple or other (.ics)",
    "cal": {
     "title": "M.V.P. Accelerator: my weekly hour",
-    "body": "One lesson, then your Playbook reps. Move it when you need to, and keep it.",
+    "body": "Your lesson, then one core rep from your Playbook. Move it when you need to, and keep it.",
     "outlook_note": "Set it to repeat weekly."
    }
   },
@@ -1669,12 +1750,14 @@ window.COURSE = {
      "ATHLEADERSHIP",
      "The Elite Athletic Mindset",
      "Melissa Dawn Simkins"
-    ]
+    ],
+    "img": "assets/book_cover.png",
+    "alt": "Cover of Athleadership: The Elite Athletic Mindset, by Melissa Dawn Simkins"
    },
    "scorecard": {
     "tag": "Your Scorecard",
-    "title": "The 90-Day Way Core 4 Scorecard",
-    "line": "Filled in lesson by lesson, tracked week by week.",
+    "title": "The 90-Day Way Scorecard",
+    "line": "Your own 90-day leadership goal, set in Lesson 3 and tracked week by week.",
     "download": "Download",
     "example": "See an example",
     "example_label": "Example",
@@ -1682,7 +1765,7 @@ window.COURSE = {
     "example_pdf": "resources/90-Day_Way_Core_4_Scorecard_Example.pdf",
     "img": "assets/scorecard_page.jpg",
     "example_img": "assets/scorecard_example.jpg",
-    "alt": "Part 1 of the 90-Day Way Core 4 Scorecard, blank",
+    "alt": "Part 1 of the 90-Day Way Scorecard, blank",
     "example_alt": "Part 1 of the Scorecard, filled in by Melissa as an example"
    }
   },
@@ -1726,6 +1809,9 @@ window.COURSE = {
    "c_eyebrow": "Foundation Reset",
    "c_heading": "Run it now, standing up",
    "c_time": "About a minute",
+   "words_label": "Your five words",
+   "words_none": "The five words you chose on the Foundation Reset screen",
+   "anchor_tag": "Anchor",
    "c_tags": [
     "5 Words",
     "2 Options",
@@ -1742,6 +1828,22 @@ window.COURSE = {
   "recall": {
    "eyebrow": "Last time",
    "from": "From Lesson {n}"
+  },
+  "reset": {
+   "eyebrow": "The Foundation Reset",
+   "tags": [
+    "5 Words",
+    "2 Options",
+    "1 Default"
+   ],
+   "example_label": "Melissa's 38-hour pivot",
+   "science_tag": "Why it works",
+   "yours": "Your five words",
+   "placeholder": "Five words that steady you",
+   "pick": "Or start from one of these",
+   "save": "Save",
+   "saved": "Saved. You will see them in every check-in.",
+   "count": "{n} of 5 words"
   },
   "drill": {
    "eyebrow": "The Drill",
@@ -1761,7 +1863,8 @@ window.COURSE = {
   "objectives": {
    "eyebrow": "What you'll practice",
    "caption_eyebrow": "This lesson",
-   "pulse_tag": "Pulse Check"
+   "pulse_tag": "Pulse Check",
+   "core_tag": "Core rep this week"
   },
   "tabs": {
    "prompt": "Select each one to open it.",
@@ -1783,6 +1886,11 @@ window.COURSE = {
    "eyebrow": "Put in the reps",
    "heading": "Your Lesson {n} drills",
    "min": "min",
+   "core_caption": "core rep",
+   "core_tag": "Core rep · start here",
+   "extra_tag": "Extra rep, if you have time",
+   "req_tag": "Required · at the end of this lesson",
+   "feedback": "Run your core rep, then ask one person how it landed.",
    "where": "in your Playbook",
    "where_sc": "in your Playbook and Scorecard",
    "drill": "Drill",
@@ -1803,13 +1911,14 @@ window.COURSE = {
    "pause": "Pause",
    "resume": "Resume",
    "again": "Run it again",
-   "ran": "I ran this drill"
+   "ran": "I ran this drill",
+   "later": "I'll run it later this week"
   },
   "pulse": {
    "eyebrow": "Pulse Check · Lesson {n}",
    "heading": "How the season is going",
    "of": "Lesson {n} of 6",
-   "done": "Lesson {n} is complete."
+   "done": "Pulse Check done."
   },
   "formembed": {
    "loading": "Loading the form…",
@@ -1825,7 +1934,8 @@ window.COURSE = {
   "formcode": {
    "err": "That code doesn't match. Check the last page of the form and try again.",
    "cta": "Continue",
-   "cta_pre": "Continue"
+   "cta_pre": "Continue",
+   "guide_pre": "Your Growth Guide comes with your results. Keep it somewhere safe: at the end of your season you will compare it with your final results."
   },
   "kc": {
    "eyebrow": "Knowledge check",
@@ -1854,7 +1964,9 @@ window.COURSE = {
    "this_week": "This week",
    "next": "Next",
    "start": "Start Lesson {n}",
-   "exit": "Exit for now"
+   "exit": "Exit for now",
+   "done_badge": "You did it",
+   "progress": "{n} of 6 lessons complete"
   },
   "r180": {
    "caption_eyebrow": "Your 180",
@@ -1865,11 +1977,13 @@ window.COURSE = {
    "done": "Your 180 is complete."
   },
   "share": {
-   "photo": "celebrate",
-   "eyebrow": "Optional",
-   "heading": "Share that you finished",
+   "photo": "ai_celebration_team",
+   "eyebrow": "Share the win",
+   "heading": "Share your certificate",
+   "heading_off": "Share your season",
    "copy": "Copy the post",
    "open": "Open LinkedIn",
+   "cert_hint": "Add the certificate you just downloaded to the post.",
    "copied": "Copied. Paste it into a new LinkedIn post.",
    "card_kicker": "Season complete",
    "card_foot": "Powered by Athleadership Arena"
@@ -1878,14 +1992,15 @@ window.COURSE = {
    "eyebrow": "Season complete",
    "heading": "Congratulations, {first}.",
    "heading_plain": "Congratulations.",
+   "words_label": "Your five words, for every season",
    "date_line": "You finished the M.V.P. Accelerator on {date}.",
    "video_label": "Congratulations from Melissa",
    "compare": "drill_notice",
    "compare_label": "Where you started, and where you are now",
    "l1_label": "Lesson 1, what you noticed",
    "l6_label": "Lesson 6, what you noticed",
-   "blank1": "You left this one blank in Lesson 1.",
-   "blank6": "You left this one blank in Lesson 6.",
+   "blank1": "",
+   "blank6": "",
    "patterns_label": "The patterns you named",
    "no_patterns": "No patterns named yet.",
    "save": "Save page",
@@ -1919,7 +2034,7 @@ window.COURSE = {
    "drill": "Play the drill through to continue.",
    "tabs": "Open each one to continue.",
    "pre": "Enter your code to open Lesson 1.",
-   "pulse": "Enter your Pulse Check code to complete the lesson.",
+   "pulse": "Enter your Pulse Check code to continue.",
    "kc": "Answer every question to continue.",
    "post": "Enter your post-assessment code to continue.",
    "r180": "Complete your 180 to finish.",
@@ -1929,14 +2044,26 @@ window.COURSE = {
 };
 window.SCREENS = [
  {
+  "id": "G00",
+  "type": "fullvideo",
+  "menu": "The Athleadership Anthem",
+  "video": "anthem",
+  "autoplay": true,
+  "auto_advance": true,
+  "bare": true,
+  "label": "Athleadership Arena",
+  "alt": "The Athleadership Anthem: an animated welcome into the Arena.",
+  "lesson": "L0"
+ },
+ {
   "id": "G0",
   "type": "cover",
   "menu": "Getting Started",
   "dark": true,
-  "photo": "coach_board",
+  "photo": "ai_man_leads_standup",
   "kicker": "PLAYER-COACH TRACK",
   "heading": "Getting Started",
-  "meta": "About 15 minutes",
+  "meta": "About 20 minutes",
   "cta": "Start",
   "lesson": "L0",
   "vo": [
@@ -1963,7 +2090,8 @@ window.SCREENS = [
   "photo": "melissa",
   "quote": "Performance is not determined by what you know. It is determined by what you can summon under pressure.",
   "who": "Dr. Michael Platt",
-  "role": "Director, Wharton Neuroscience Initiative. Author of the foreword to Athleadership.",
+  "role": "Director, Wharton Neuroscience Initiative",
+  "role2": "Foreword author, Athleadership",
   "cta": "Meet your Head Coach",
   "lesson": "L0",
   "vo": [
@@ -1977,15 +2105,19 @@ window.SCREENS = [
   "video": "welcome",
   "autoplay": true,
   "label": "Melissa Dawn Simkins",
-  "sub": "Your Head Coach",
+  "sub": "Founder, Athleadership, and Head Coach",
   "lesson": "L0"
  },
  {
   "id": "G4",
   "type": "sponsor",
-  "menu": "A message from Avanos",
-  "name": "Carrie Fenton",
+  "menu": "A message from your organization",
   "org": "Avanos",
+  "logo": "assets/clients/avanos.png",
+  "name": "Carrie Fenton",
+  "title": "Vice President, Sales, North America",
+  "photo": null,
+  "video": null,
   "lesson": "L0",
   "vo": [
    "n_G4"
@@ -1997,19 +2129,19 @@ window.SCREENS = [
   "menu": "Set up your season",
   "eyebrow": "GETTING STARTED",
   "heading": "Set up your season",
-  "photo": "team_laptop",
+  "photo": "glass_meeting",
   "cards": [
    {
     "n": 1,
-    "title": "Your pre-assessment",
-    "text": "About 5 minutes. It opens on the next screen.",
+    "title": "Your Benchmark Pre‑Assessment",
+    "text": "It takes about 10 minutes and opens on the next screen.",
     "action": "next",
     "c": 1
    },
    {
     "n": 2,
     "title": "Your Player-Coach Playbook",
-    "text": "One drill for you and one conversation with your Athleader, every lesson.",
+    "text": "Your practice, preparation, and reflection for each lesson, including one conversation with your Athleader (your direct report).",
     "action": "pdf",
     "pdf": "resources/PlayerCoach_Playbook_Full.pdf",
     "label": "Download",
@@ -2017,7 +2149,7 @@ window.SCREENS = [
    },
    {
     "n": 3,
-    "title": "The Starting Line agenda",
+    "title": "Your Starting Line Agenda",
     "text": "Your first 30 minutes with your Athleader. You book it this week.",
     "action": "pdf",
     "pdf": "resources/Commitment_and_Starting_Line_Agenda.pdf",
@@ -2026,8 +2158,8 @@ window.SCREENS = [
    },
    {
     "n": 4,
-    "title": "One hour a week",
-    "text": "Same time each week. Move it when you need to, and keep it.",
+    "title": "About an hour a week",
+    "text": "Your lesson, then one core rep, often a conversation you would hold anyway.",
     "action": "calendar",
     "c": 4
    }
@@ -2041,18 +2173,19 @@ window.SCREENS = [
   "id": "G6",
   "type": "pre",
   "menu": "Your starting point",
-  "photo": "man_writing",
+  "photo": "ai_man_assessment",
   "eyebrow": "YOUR STARTING POINT",
   "heading": "How you lead today",
-  "stat": "5",
-  "stat_text": "minutes now, and the same questions after Lesson 6",
+  "stat": "10",
+  "stat_text": "minutes now, and the same assessment at the end of your season",
   "note_tag": "WITH YOUR RESULTS",
-  "note": "Your Growth Guide: where you stand as a leader today",
+  "note": "Receive your Growth Guide: your outcomes, and how to get the most from this experience.",
+  "must": "You need to finish it to open Lesson 1. You can go back and change answers until you submit.",
   "lesson": "L0",
   "vo": [
    "r2_pc_G6"
   ],
-  "next_line": "The assessment opens on the next screen."
+  "next_line": "The pre-assessment opens on the next screen."
  },
  {
   "id": "G6a",
@@ -2060,8 +2193,8 @@ window.SCREENS = [
   "menu": "Your starting point: the assessment",
   "form": "pre",
   "eyebrow": "YOUR STARTING POINT",
-  "heading": "Your pre-assessment",
-  "note": "Your code is on the last page. Note it down, then select Next.",
+  "heading": "Your Benchmark Pre-Assessment",
+  "note": "Your code is on the last page. Copy the code or write it down, then select Next.",
   "fallback": "Form not loading? Open it in a new tab",
   "lesson": "L0",
   "vo": [
@@ -2083,7 +2216,8 @@ window.SCREENS = [
   "lesson": "L0",
   "vo": [
    "r2_code_pre"
-  ]
+  ],
+  "guide": "Your Growth Guide comes with your results. Keep it somewhere safe: at the end of your season you will compare it with your final results."
  },
  {
   "id": "G7",
@@ -2092,25 +2226,25 @@ window.SCREENS = [
   "eyebrow": "The Player-Coach role",
   "cards": [
    {
-    "q": "My manager isn't taking part.",
+    "q": "Who is my Athleader?",
     "pts": [
-     "Your Player-Coach can be a peer, a mentor or a colleague you trust",
-     "Only company-selected managers get the manager track"
+     "The person you manage who is taking the Athleader track.",
+     "You're their Player-Coach: you lead your own season and coach them through theirs."
     ],
     "c": 1
    },
    {
     "q": "I manage several participants.",
     "pts": [
-     "One 30-minute Commitment Meeting with each person",
-     "Then fold the 15-minute check-ins into meetings you already hold"
+     "One 30-minute Starting Line with each person.",
+     "Then fold the 15-minute check-ins into meetings you already hold."
     ],
     "c": 2
    }
   ],
   "lesson": "L0",
   "vo": [
-   "n_G7"
+   "pc_n_G7"
   ]
  },
  {
@@ -2119,7 +2253,7 @@ window.SCREENS = [
   "menu": "The book and your Scorecard",
   "lesson": "L0",
   "vo": [
-   "n_G8"
+   "pc_n_G8"
   ]
  },
  {
@@ -2132,11 +2266,11 @@ window.SCREENS = [
     "steps": [
      [
       "The Moment",
-      "A coaching moment you will recognize"
+      "A coaching moment you will recognize."
      ],
      [
       "Check-in",
-      "What you thought, felt and wanted to do"
+      "What you thought, felt and wanted to do."
      ]
     ],
     "c": 1
@@ -2146,15 +2280,15 @@ window.SCREENS = [
     "steps": [
      [
       "Core lessons",
-      "Four short videos: lead self, then lead others"
+      "Four short videos: lead self, then lead others."
      ],
      [
       "Make the call",
-      "Choose a coaching move and see where it leads"
+      "Choose a coaching move and see where it leads."
      ],
      [
       "The drill",
-      "A short pressure rep, on video"
+      "A short pressure rep, on video."
      ]
     ],
     "c": 2
@@ -2164,11 +2298,15 @@ window.SCREENS = [
     "steps": [
      [
       "Your Playbook",
-      "One drill for you, one conversation with your Athleader"
+      "A weekly core rep, and space for your team to practice."
      ],
      [
       "Athleader Pro Huddle",
-      "A guest leader and a 3-minute drill"
+      "A guest leader and a 3-minute drill."
+     ],
+     [
+      "Get feedback",
+      "See how your leadership is landing in real-life moments."
      ]
     ],
     "c": 3
@@ -2178,11 +2316,11 @@ window.SCREENS = [
     "steps": [
      [
       "Pulse Check",
-      "Your progress across the season"
+      "Your check-in after every lesson, across the season."
      ],
      [
       "Knowledge check",
-      "A few questions on the main ideas"
+      "A few questions on the main ideas."
      ]
     ],
     "c": 4
@@ -2198,7 +2336,7 @@ window.SCREENS = [
   "type": "ready",
   "menu": "You're ready",
   "dark": true,
-  "photo": "meeting_table",
+  "photo": "ai_leader_with_reports",
   "kicker_open": "LESSON 1 IS OPEN",
   "line_open": "Lesson 1 starts with your role as a Player-Coach.",
   "lesson": "L0",
@@ -2211,10 +2349,10 @@ window.SCREENS = [
   "type": "cover",
   "menu": "Suit Up: Your Leadership M.V.P.",
   "dark": true,
-  "photo": "glass_meeting",
+  "photo": "ai_older_leader_window",
   "kicker": "LESSON 1",
   "heading": "Suit Up: Your Leadership M.V.P.",
-  "meta": "About 40 minutes here, then about 50 minutes in your week, including one conversation",
+  "meta": "About 35 minutes. Then one core rep this week.",
   "cta": "Start lesson",
   "lesson": "L1",
   "vo": [
@@ -2222,44 +2360,10 @@ window.SCREENS = [
   ]
  },
  {
-  "id": "1.1",
-  "type": "moment",
-  "menu": "The Moment",
-  "dark": true,
-  "photo": "pair_laptop",
-  "scene": "Your direct report just enrolled in this leadership experience. You told them, \"Great, let me know if you need anything.\" You both know nothing will happen next.",
-  "lesson": "L1",
-  "vo": [
-   "pc_n_1_1"
-  ]
- },
- {
-  "id": "1.2",
-  "type": "checkin",
-  "menu": "Check-in",
-  "lesson": "L1",
-  "vo": [
-   "ci_a",
-   "ci_b",
-   "ci_c"
-  ]
- },
- {
-  "id": "1.3",
-  "type": "drill",
-  "menu": "The Drill: First Read",
-  "drill": "L1",
-  "lesson": "L1",
-  "vo": [
-   "n_1_3"
-  ],
-  "video": "drill_l1"
- },
- {
   "id": "1.4",
   "type": "objectives",
   "menu": "What you will practice",
-  "photo": "coach_board",
+  "photo": "pair_laptop",
   "practise": "Ask one question before you offer one answer.",
   "objs": [
    [
@@ -2280,7 +2384,8 @@ window.SCREENS = [
    [
     "Hold the Starting Line",
     "Thirty minutes with your Athleader",
-    4
+    4,
+    "core"
    ]
   ],
   "lesson": "L1",
@@ -2302,7 +2407,7 @@ window.SCREENS = [
   "type": "reflect",
   "menu": "Your one behavior",
   "key": "behavior",
-  "photo": "man_writing",
+  "photo": "men_sofa",
   "eyebrow": "KEEP THIS ALL SEASON",
   "heading": "One behavior you want to strengthen",
   "prompt": "What is one leadership behavior you want to strengthen, for how you support your team?",
@@ -2329,6 +2434,73 @@ window.SCREENS = [
   ]
  },
  {
+  "id": "1.R",
+  "type": "reset",
+  "menu": "The Foundation Reset",
+  "heading": "Five words, two options, one default",
+  "science": "Under pressure, your brain's alarm, the amygdala, fires faster than the part that plans, the prefrontal cortex. Your five words tell the alarm to stand down and bring your thinking brain back online.",
+  "example": [
+   [
+    "5 Words",
+    "“I’m not in danger, deciding.”"
+   ],
+   [
+    "2 Options",
+    "“Cancel or pivot?”"
+   ],
+   [
+    "1 Default",
+    "“We pivot. Now.”"
+   ]
+  ],
+  "example_note": "A hotel hallway, two days before her biggest summit, as the world shut down. Thirty-eight hours later, one of the first global virtual leadership events went live.",
+  "suggestions": [
+   "I'm not in danger, deciding.",
+   "I bend; I don't break.",
+   "Return to what matters now.",
+   "Slow down; come back home."
+  ],
+  "lesson": "L1",
+  "vo": [
+   "n_1_R"
+  ]
+ },
+ {
+  "id": "1.1",
+  "type": "moment",
+  "menu": "The Moment",
+  "dark": true,
+  "photo": "ai_walk_and_talk",
+  "scene": "Your direct report just enrolled in this leadership experience. You say, “Great. Let me know if you need anything.” Three weeks later, neither of you has mentioned it again.",
+  "lesson": "L1",
+  "vo": [
+   "pc_n_1_1"
+  ]
+ },
+ {
+  "id": "1.2",
+  "type": "checkin",
+  "menu": "Check-in",
+  "anchor": "Name what your Athleader needs from you this week.",
+  "lesson": "L1",
+  "vo": [
+   "ci_a",
+   "ci_b",
+   "ci_c"
+  ]
+ },
+ {
+  "id": "1.3",
+  "type": "drill",
+  "menu": "The Drill: First Read",
+  "drill": "L1",
+  "lesson": "L1",
+  "vo": [
+   "n_1_3"
+  ],
+  "video": "drill_l1"
+ },
+ {
   "id": "1.8",
   "type": "fullvideo",
   "menu": "Video 1.2: Leading yourself through change",
@@ -2341,7 +2513,7 @@ window.SCREENS = [
   "id": "1.9",
   "type": "example",
   "menu": "Melissa's anchor",
-  "photo": "woman_lookup",
+  "photo": "ai_start_line_detail",
   "eyebrow": "FROM VIDEO 1.2",
   "heading": "How Melissa became the anchor again",
   "blocks": [
@@ -2358,8 +2530,8 @@ window.SCREENS = [
     "She could lead her team through change again."
    ],
    [
-    "The lesson",
-    "Your team can't borrow steadiness you don't have."
+    "The practice",
+    "Put one recovery block on your calendar this week, and keep it."
    ]
   ],
   "lesson": "L1",
@@ -2399,13 +2571,13 @@ window.SCREENS = [
   "id": "1.12",
   "type": "example",
   "menu": "David and Kim",
-  "photo": "team_pointing",
+  "photo": "ai_pc_recognition",
   "eyebrow": "FROM VIDEO 1.3",
   "heading": "One coaching investment, a team win",
   "blocks": [
    [
     "The situation",
-    "David had a player, Kim, whose presentation skills were holding her back."
+    "David managed Kim, whose presentation skills were holding her back."
    ],
    [
     "What he did",
@@ -2416,8 +2588,8 @@ window.SCREENS = [
     "Kim led the pitch and the team won a major contract, with recognition from senior leaders."
    ],
    [
-    "The lesson",
-    "Coach one person well and the whole team gains."
+    "The practice",
+    "Name one place this week where coaching your Athleader would lift the team."
    ]
   ],
   "lesson": "L1",
@@ -2441,7 +2613,8 @@ window.SCREENS = [
   "style": "timeline",
   "eyebrow": "YOUR FIRST CONVERSATION",
   "heading": "The Starting Line: 30 minutes",
-  "sub": "Melissa's agenda. Book it with your Athleader this week.",
+  "sub": "The meeting from the video, on Melissa's agenda. Book it with your Athleader this week.",
+  "motion": true,
   "steps": [
    {
     "label": "5 min",
@@ -2485,7 +2658,7 @@ window.SCREENS = [
   "id": "1.15",
   "type": "call",
   "menu": "Make the call",
-  "photo": "pair_signing",
+  "photo": "ai_walk_and_talk",
   "prompt": "In the Starting Line, your Athleader's answers about their goals stay vague. What's your next move?",
   "opts": [
    {
@@ -2494,7 +2667,7 @@ window.SCREENS = [
     "vo": "pc_n_1_15_o0"
    },
    {
-    "t": "Ask, \"What would make this season worth it for you, even if nothing else changed?\" Then wait.",
+    "t": "Ask, “What would make this season worth it for you, even if nothing else changed?” Then wait.",
     "fb": "That's safety in one question. The real goal shows up in the pause.",
     "best": true,
     "vo": "pc_n_1_15_o1"
@@ -2512,6 +2685,8 @@ window.SCREENS = [
   "pdf": "resources/PlayerCoach_Playbook_Lesson1.pdf",
   "total": "50",
   "cover": "assets/playercoach_playbook_cover.jpg",
+  "core": 2,
+  "feedback": "Run your core rep, then ask your Athleader how it landed.",
   "drills": [
    [
     "1.2",
@@ -2529,10 +2704,10 @@ window.SCREENS = [
    ],
    [
     "1.4",
-    "The first conversation",
+    "The first conversation: your Starting Line",
     "Alignment",
     30,
-    3
+    0
    ]
   ],
   "lesson": "L1",
@@ -2579,7 +2754,7 @@ window.SCREENS = [
   "form": "pulse",
   "eyebrow": "PULSE CHECK · LESSON 1",
   "heading": "Your Pulse Check",
-  "note": "Your code is on the last page. Note it down, then select Next.",
+  "note": "Your code is on the last page. Copy the code or write it down, then select Next.",
   "fallback": "Form not loading? Open it in a new tab",
   "lesson": "L1",
   "vo": [
@@ -2597,7 +2772,7 @@ window.SCREENS = [
   "heading": "Enter your code",
   "prompt": "The code from the last page of the Pulse Check",
   "button": "Submit",
-  "ok": "Accepted. Lesson 1 is complete.",
+  "ok": "Accepted. Your Lesson 1 Pulse Check is in.",
   "back": "Back to the form",
   "lesson": "L1",
   "vo": [
@@ -2640,7 +2815,7 @@ window.SCREENS = [
     "wvo": "pc_n_1_20_w1"
    },
    {
-    "q": "In the Starting Line, your Athleader says, \"I'm not sure what I want from this yet.\" What's the best next move?",
+    "q": "In the Starting Line, your Athleader says, “I'm not sure what I want from this yet.” What's the best next move?",
     "opts": [
      "Suggest three goals they could choose from",
      "Move on to scheduling the check-ins",
@@ -2704,7 +2879,7 @@ window.SCREENS = [
   "photo": "highfive",
   "n": 1,
   "heading": "Lesson 1 complete",
-  "thisweek": "Book and hold the Starting Line with your Athleader, and complete your Lesson 1 Playbook drills.",
+  "thisweek": "Your core rep: book and hold the Starting Line. Then ask how it landed.",
   "next": "Lesson 2, The Leader's Scouting Report",
   "nextline": "Your own M.V.P.+V, and feedback that looks forward.",
   "lesson": "L1",
@@ -2717,10 +2892,10 @@ window.SCREENS = [
   "type": "cover",
   "menu": "The Leader's Scouting Report",
   "dark": true,
-  "photo": "coach_board",
+  "photo": "ai_focus_eyes",
   "kicker": "LESSON 2",
   "heading": "The Leader's Scouting Report",
-  "meta": "About 40 minutes here, then about an hour in your week",
+  "meta": "About 35 minutes. Then one core rep this week.",
   "cta": "Start lesson",
   "lesson": "L2",
   "vo": [
@@ -2732,8 +2907,8 @@ window.SCREENS = [
   "type": "moment",
   "menu": "The Moment",
   "dark": true,
-  "photo": "women_talking",
-  "scene": "In your check-in, your Athleader starts telling you about a project that went badly last year. Before they finish, you hear yourself say, \"Well, what you should have done is...\"",
+  "photo": "ai_senior_woman_table",
+  "scene": "Your team is new: half of it joined last month, after the acquisition. In your check-in, your Athleader starts telling you about a project that went badly in their old team. Before they finish, you hear yourself say, “Well, what you should have done is…”",
   "lesson": "L2",
   "vo": [
    "pc_n_2_1"
@@ -2743,6 +2918,7 @@ window.SCREENS = [
   "id": "2.2",
   "type": "checkin",
   "menu": "Check-in",
+  "anchor": "Name the first sentence you want to say next time.",
   "lesson": "L2",
   "vo": [
    "ci_a",
@@ -2771,7 +2947,7 @@ window.SCREENS = [
   "id": "2.4",
   "type": "objectives",
   "menu": "What you will practice",
-  "photo": "woman_writing",
+  "photo": "women_talking",
   "practise": "Acknowledge first. Advise later.",
   "objs": [
    [
@@ -2786,13 +2962,14 @@ window.SCREENS = [
    ],
    [
     "Give forward-looking feedback",
-    "Acknowledge, connect, commit",
+    "Acknowledge, connect, agree one action",
     3
    ],
    [
     "Try it in a check-in",
     "With your Athleader, this week",
-    4
+    4,
+    "core"
    ]
   ],
   "lesson": "L2",
@@ -2824,7 +3001,7 @@ window.SCREENS = [
   "menu": "Your M.V.P.+V",
   "gate": true,
   "kind": "mvpv",
-  "eyebrow": "M.V.P. + V, LEADER'S LENS",
+  "eyebrow": "M.V.P.+V, LEADER'S LENS",
   "heading": "What each one answers",
   "items": [
    {
@@ -2834,7 +3011,7 @@ window.SCREENS = [
     "big": "Why",
     "line": "The lasting impact you want, apart from any title",
     "test": "Would it survive a reorganization?",
-    "icon": "alignment"
+    "icon": "P"
    },
    {
     "k": "vision",
@@ -2843,7 +3020,7 @@ window.SCREENS = [
     "big": "Where",
     "line": "Your leadership in 3 to 5 years, in detail",
     "test": "Who is on the team, and what have they become?",
-    "icon": "agility"
+    "icon": "V"
    },
    {
     "k": "mission",
@@ -2852,16 +3029,16 @@ window.SCREENS = [
     "big": "How",
     "line": "I will [action] for [team] by [focus] to [result].",
     "test": "Could you say it in a team meeting?",
-    "icon": "resilience"
+    "icon": "M"
    },
    {
     "k": "values",
     "name": "Values",
-    "sub": "Your guardrails",
+    "sub": "Your foundations",
     "big": "3 to 5",
-    "line": "The ones you would keep at a cost",
+    "line": "Foundations you come back to daily that shape your actions",
     "test": "When did one make a great day, or a draining one?",
-    "icon": "wellbeing"
+    "icon": "+V"
    }
   ],
   "lesson": "L2",
@@ -2888,7 +3065,7 @@ window.SCREENS = [
   "id": "2.9",
   "type": "example",
   "menu": "Two responses",
-  "photo": "men_sofa",
+  "photo": "ai_coach_colleague",
   "eyebrow": "FROM VIDEO 2.3",
   "heading": "Two responses to the same story",
   "blocks": [
@@ -2898,15 +3075,15 @@ window.SCREENS = [
    ],
    [
     "Manager A",
-    "\"Well, here's what you should have done.\""
+    "“Well, here's what you should have done.”"
    ],
    [
     "Manager B",
-    "\"Thank you for trusting me with that. What did it teach you?\""
+    "“Thank you for trusting me with that. What did it teach you?”"
    ],
    [
-    "The lesson",
-    "The first sentence decides whether there is a second story."
+    "The practice",
+    "In your next check-in, thank them first, then ask what it taught them."
    ]
   ],
   "lesson": "L2",
@@ -2922,27 +3099,27 @@ window.SCREENS = [
    "Looks back",
    "Looks forward"
   ],
-  "photo": "meeting_table",
+  "photo": "pair_signing",
   "heading": "Looking back or forward?",
   "sub": "Sort each coaching line. Forward-looking lines point at the next action.",
   "items": [
    [
-    "\"Why didn't you raise this sooner?\"",
+    "“Why didn't you raise this sooner?”",
     0,
     "It asks them to defend the past."
    ],
    [
-    "\"What did that teach you that you can use next month?\"",
+    "“What did that teach you that you can use next month?”",
     1,
     "It connects the lesson to what comes next."
    ],
    [
-    "\"That's a real insight. Where could you use it on purpose this week?\"",
+    "“That's a real insight. Where could you use it on purpose this week?”",
     1,
     "It acknowledges, then points forward."
    ],
    [
-    "\"Let's go through everything that went wrong.\"",
+    "“Let's go through everything that went wrong.”",
     0,
     "It keeps the conversation in the past."
    ]
@@ -2968,23 +3145,24 @@ window.SCREENS = [
   "style": "numbered",
   "eyebrow": "FORWARD-LOOKING FEEDBACK",
   "heading": "Three steps, about ten seconds",
+  "motion": true,
   "steps": [
    {
     "label": "01",
     "title": "Acknowledge the insight",
-    "text": "\"That's a powerful realization.\"",
+    "text": "“That's a powerful realization.”",
     "c": 1
    },
    {
     "label": "02",
     "title": "Connect it to the future",
-    "text": "\"How could you use that on your 90-day goal?\"",
+    "text": "“How could you use that on your 90-day goal?”",
     "c": 2
    },
    {
     "label": "03",
     "title": "Agree one action",
-    "text": "\"What's one small thing you'll try this week?\"",
+    "text": "“What's one small thing you'll try this week?”",
     "c": 3
    }
   ],
@@ -2997,16 +3175,16 @@ window.SCREENS = [
   "id": "2.13",
   "type": "call",
   "menu": "Make the call",
-  "photo": "women_talking",
-  "prompt": "Your Athleader says, \"I found out I'm good at bringing quiet people into a conversation. I never valued it before.\" How do you respond?",
+  "photo": "woman_talking",
+  "prompt": "Your Athleader says, “I found out I'm good at bringing quiet people into a conversation. I never valued it before.” How do you respond?",
   "opts": [
    {
-    "t": "\"Great. Put that on your development plan.\"",
+    "t": "“Great. Put that on your development plan.”",
     "fb": "It skips the first step and ends on a form.",
     "vo": "pc_n_2_13_o0"
    },
    {
-    "t": "\"That's a rare strength. Where in the next month could you use it on purpose? Let's pick one meeting.\"",
+    "t": "“That's a rare strength. Where in the next month could you use it on purpose? Let's pick one meeting.”",
     "fb": "All three steps, in ten seconds.",
     "best": true,
     "vo": "pc_n_2_13_o1"
@@ -3035,6 +3213,8 @@ window.SCREENS = [
   "pdf": "resources/PlayerCoach_Playbook_Lesson2.pdf",
   "total": "60",
   "cover": "assets/playercoach_playbook_cover.jpg",
+  "core": 2,
+  "feedback": "Run your core rep, then ask your Athleader how it landed.",
   "drills": [
    [
     "2.2",
@@ -3055,7 +3235,7 @@ window.SCREENS = [
     "Forward-looking feedback",
     "Alignment",
     20,
-    3
+    0
    ]
   ],
   "lesson": "L2",
@@ -3102,7 +3282,7 @@ window.SCREENS = [
   "form": "pulse",
   "eyebrow": "PULSE CHECK · LESSON 2",
   "heading": "Your Pulse Check",
-  "note": "Your code is on the last page. Note it down, then select Next.",
+  "note": "Your code is on the last page. Copy the code or write it down, then select Next.",
   "fallback": "Form not loading? Open it in a new tab",
   "lesson": "L2",
   "vo": [
@@ -3120,7 +3300,7 @@ window.SCREENS = [
   "heading": "Enter your code",
   "prompt": "The code from the last page of the Pulse Check",
   "button": "Submit",
-  "ok": "Accepted. Lesson 2 is complete.",
+  "ok": "Accepted. Your Lesson 2 Pulse Check is in.",
   "back": "Back to the form",
   "lesson": "L2",
   "vo": [
@@ -3151,10 +3331,10 @@ window.SCREENS = [
    {
     "q": "Your Athleader tells you about a setback. Which first response builds psychological safety?",
     "opts": [
-     "\"Here's what I'd have done differently.\"",
-     "\"Thanks for telling me. What did it teach you?\"",
-     "\"Don't worry, it happens to everyone.\"",
-     "\"Let's move on to this week's numbers.\""
+     "“Here's what I'd have done differently.”",
+     "“Thanks for telling me. What did it teach you?”",
+     "“Don't worry, it happens to everyone.”",
+     "“Let's move on to this week's numbers.”"
     ],
     "correct": 1,
     "fb": "Thank them, then ask.",
@@ -3213,7 +3393,7 @@ window.SCREENS = [
    ]
   ],
   "book": "Chapter 8, p.125",
-  "book_note": "Lose no lessons: reading a setback the way a coach reads film",
+  "book_note": "Resilience: Lose No Lessons",
   "lesson": "L2",
   "vo": [
    "pc_n_2_20"
@@ -3224,10 +3404,10 @@ window.SCREENS = [
   "type": "close",
   "menu": "Lesson 2 complete",
   "dark": true,
-  "photo": "team_desk",
+  "photo": "celebrate",
   "n": 2,
   "heading": "Lesson 2 complete",
-  "thisweek": "Draft your M.V.P.+V, then use the three feedback steps in your next check-in.",
+  "thisweek": "Your core rep: the three feedback steps in your next check-in. Then ask how it landed.",
   "next": "Lesson 3, The 90-Day Way Game Plan",
   "nextline": "Your own 90-day leadership goal, then the team's.",
   "lesson": "L2",
@@ -3243,7 +3423,7 @@ window.SCREENS = [
   "photo": "team_desk",
   "kicker": "LESSON 3",
   "heading": "The 90-Day Way Game Plan",
-  "meta": "About 40 minutes here, then about 50 minutes in your week, including one team meeting",
+  "meta": "About 35 minutes. Then one core rep this week.",
   "cta": "Start lesson",
   "lesson": "L3",
   "vo": [
@@ -3255,8 +3435,8 @@ window.SCREENS = [
   "type": "moment",
   "menu": "The Moment",
   "dark": true,
-  "photo": "team_laptop",
-  "scene": "Monday, 9:00. Your team starts the week with ten priorities, all marked urgent. By Friday, none of them is finished and everyone is tired.",
+  "photo": "ai_team_reorg",
+  "scene": "It's Monday at 9am. Since the reorganization, your team has taken on another group's work, and a new AI tool is changing how it gets done. All ten priorities are marked urgent. By Friday, none is finished and everyone is tired.",
   "lesson": "L3",
   "vo": [
    "pc_n_3_1"
@@ -3266,6 +3446,7 @@ window.SCREENS = [
   "id": "3.2",
   "type": "checkin",
   "menu": "Check-in",
+  "anchor": "Name the one thing your team must achieve this quarter.",
   "lesson": "L3",
   "vo": [
    "ci_a",
@@ -3294,13 +3475,14 @@ window.SCREENS = [
   "id": "3.4",
   "type": "objectives",
   "menu": "What you will practice",
-  "photo": "coach_board",
+  "photo": "ai_pc_whiteboard_plan",
   "practise": "Set your own goal before you ask for theirs.",
   "objs": [
    [
     "Write your 90-day leadership goal",
     "About how you lead, with a date",
-    1
+    1,
+    "core"
    ],
    [
     "Name your roadblock",
@@ -3345,7 +3527,7 @@ window.SCREENS = [
   "id": "3.7",
   "type": "compare",
   "menu": "Your plan, then the team's",
-  "photo": "coach_board",
+  "photo": "meeting_table",
   "eyebrow": "SAME SYSTEM, TWO LEVELS",
   "heading": "Your plan first, then the team's",
   "cols": [
@@ -3357,7 +3539,7 @@ window.SCREENS = [
      "Specific and measurable",
      "A first step this week"
     ],
-    "note": "Melissa's example: delegate one significant responsibility and free five hours a week for strategic thinking.",
+    "note": "A manager Melissa coaches: she delegated one significant responsibility to free five hours a week for strategic thinking.",
     "c": 1
    },
    {
@@ -3368,7 +3550,7 @@ window.SCREENS = [
      "Decide it together",
      "Open every check-in with it"
     ],
-    "note": "Ask: \"What is the one thing we must achieve this quarter to be successful?\"",
+    "note": "Ask: “What is the one thing we must achieve this quarter to be successful?”",
     "c": 2
    }
   ],
@@ -3385,7 +3567,7 @@ window.SCREENS = [
    "Leadership goal",
    "Project goal"
   ],
-  "photo": "man_writing",
+  "photo": "ai_pc_focus_hands",
   "heading": "Leadership goal or project goal?",
   "sub": "Sort each one. A leadership goal changes how you lead.",
   "items": [
@@ -3395,7 +3577,7 @@ window.SCREENS = [
     "It changes how you spend your time as a leader."
    ],
    [
-    "Ship the new pricing page by November.",
+    "Ship the new pricing page this quarter.",
     1,
     "It's an output, however important."
    ],
@@ -3405,7 +3587,7 @@ window.SCREENS = [
     "It's a leadership habit with a clear start."
    ],
    [
-    "Hit the Q4 revenue number.",
+    "Hit this quarter's revenue number.",
     1,
     "It's a result the team delivers. Your leadership goal is how you help them get there."
    ]
@@ -3428,7 +3610,7 @@ window.SCREENS = [
   "id": "3.10",
   "type": "example",
   "menu": "Ten priorities to one",
-  "photo": "team_pointing",
+  "photo": "team_cafe",
   "eyebrow": "FROM VIDEO 3.3",
   "heading": "Ten priorities to one",
   "blocks": [
@@ -3438,15 +3620,15 @@ window.SCREENS = [
    ],
    [
     "What she did",
-    "Asked, \"What is the one thing we must achieve this quarter to be successful?\""
+    "Asked, “What is the one thing we must achieve this quarter to be successful?”"
    ],
    [
     "What happened",
     "They chose one initiative, opened every check-in with it, and got more focused and collaborative."
    ],
    [
-    "The lesson",
-    "Alignment is one question, asked out loud and repeated every week."
+    "The practice",
+    "Ask the one-goal question out loud, then repeat it every week."
    ]
   ],
   "lesson": "L3",
@@ -3470,24 +3652,24 @@ window.SCREENS = [
   "style": "numbered",
   "eyebrow": "COACHING THROUGH ROADBLOCKS",
   "heading": "When the roadblock arrives",
-  "sub": "Coach the route. Let the team find it.",
+  "sub": "The four moves from the budget-cut story in the video.",
   "steps": [
    {
     "label": "01",
     "title": "Name the new reality",
-    "text": "\"Okay. The budget's cut. That's where we are.\"",
+    "text": "“Okay. The budget's cut. That's where we are.”",
     "c": 1
    },
    {
     "label": "02",
     "title": "Ask what is still possible",
-    "text": "\"Given this, what can we still accomplish?\"",
+    "text": "“Given this, what can we still accomplish?”",
     "c": 2
    },
    {
     "label": "03",
     "title": "Ask what it forces",
-    "text": "\"What does this make us consider that we wouldn't have?\"",
+    "text": "“What does this make us consider that we wouldn't have?”",
     "c": 3
    },
    {
@@ -3506,16 +3688,16 @@ window.SCREENS = [
   "id": "3.13",
   "type": "call",
   "menu": "Make the call",
-  "photo": "meeting_table",
+  "photo": "ai_team_reorg",
   "prompt": "Week four. Your team's 90-day plan just lost its budget. What's your first sentence in the meeting?",
   "opts": [
    {
-    "t": "\"Right. Here's how we're going to fix this.\"",
+    "t": "“Right. Here's how we're going to fix this.”",
     "fb": "Fast, and the team learns to wait for you.",
     "vo": "pc_n_3_13_o0"
    },
    {
-    "t": "\"Okay, this is our new reality. Given this constraint, what are we still able to accomplish?\"",
+    "t": "“Okay, this is our new reality. Given this constraint, what are we still able to accomplish?”",
     "fb": "That's coaching through a roadblock.",
     "best": true,
     "vo": "pc_n_3_13_o1"
@@ -3545,27 +3727,29 @@ window.SCREENS = [
   "total": "50",
   "scorecard": true,
   "cover": "assets/playercoach_playbook_cover.jpg",
+  "core": 0,
+  "feedback": "Share your goal with your Athleader in this week's check-in.",
   "drills": [
    [
     "3.2",
     "Your 90-day game plan",
     "Agility",
     20,
-    1
+    0
    ],
    [
     "3.3",
     "Introducing the 90-Day Way",
     "Alignment",
     20,
-    2
+    1
    ],
    [
     "3.4",
     "Coaching through skepticism and roadblocks",
     "Resilience",
     10,
-    3
+    2
    ]
   ],
   "lesson": "L3",
@@ -3612,7 +3796,7 @@ window.SCREENS = [
   "form": "pulse",
   "eyebrow": "PULSE CHECK · LESSON 3",
   "heading": "Your Pulse Check",
-  "note": "Your code is on the last page. Note it down, then select Next.",
+  "note": "Your code is on the last page. Copy the code or write it down, then select Next.",
   "fallback": "Form not loading? Open it in a new tab",
   "lesson": "L3",
   "vo": [
@@ -3630,7 +3814,7 @@ window.SCREENS = [
   "heading": "Enter your code",
   "prompt": "The code from the last page of the Pulse Check",
   "button": "Submit",
-  "ok": "Accepted. Lesson 3 is complete.",
+  "ok": "Accepted. Your Lesson 3 Pulse Check is in.",
   "back": "Back to the form",
   "lesson": "L3",
   "vo": [
@@ -3647,9 +3831,9 @@ window.SCREENS = [
    {
     "q": "Which of these is a 90-day leadership goal rather than a project goal?",
     "opts": [
-     "Ship the new pricing page by November",
-     "Delegate the weekly report and use the two hours for one-on-ones, starting next week",
-     "Hit the Q4 revenue number",
+     "Launch the new onboarding portal this quarter",
+     "Hold a fifteen-minute coaching conversation with each direct report every other week, starting this Friday",
+     "Grow renewals by 5% this quarter",
      "Complete the compliance training"
     ],
     "correct": 1,
@@ -3673,16 +3857,16 @@ window.SCREENS = [
     "wvo": "pc_n_3_19_w1"
    },
    {
-    "q": "A team member says the 90-Day Way is \"just another corporate initiative.\" What's the best first response?",
+    "q": "Your team chose its one shared goal. What keeps it alive through the quarter?",
     "opts": [
-     "Explain the research behind it",
-     "Ask what would make it worth their time this quarter",
-     "Tell them it is required",
-     "Leave them out of the team goal"
+     "Opening every check-in with it",
+     "Putting it in the quarterly review",
+     "Emailing it to the team once",
+     "Adding it to the project tracker"
     ],
-    "correct": 1,
-    "fb": "Ask what would make it worth it.",
-    "why": "Skepticism usually means they've seen initiatives fade before. Asking what would make it worth their time brings them into shaping the goal, which is where buy-in comes from.",
+    "correct": 0,
+    "fb": "Open every check-in with it.",
+    "why": "The question only works if you keep asking it. Opening every weekly check-in with the shared goal keeps the team on one priority instead of ten.",
     "vo": "pc_n_3_19_q2",
     "wvo": "pc_n_3_19_w2"
    },
@@ -3722,6 +3906,8 @@ window.SCREENS = [
     3
    ]
   ],
+  "book": "Chapter 11, p.183",
+  "book_note": "The 90-Day Way: make it repeatable",
   "lesson": "L3",
   "vo": [
    "pc_n_3_20"
@@ -3732,10 +3918,10 @@ window.SCREENS = [
   "type": "close",
   "menu": "Lesson 3 complete",
   "dark": true,
-  "photo": "lounge_meeting",
+  "photo": "ai_pc_team_win",
   "n": 3,
   "heading": "Lesson 3 complete",
-  "thisweek": "Write your 90-day leadership goal, then hold the one-goal conversation with your team.",
+  "thisweek": "Your core rep: your 90-day leadership goal. Then share it with your Athleader in your check-in.",
   "next": "Lesson 4, Activate Your M.V.P. Under Pressure",
   "nextline": "Your first move under pressure, and coaching the pivot.",
   "lesson": "L3",
@@ -3748,10 +3934,10 @@ window.SCREENS = [
   "type": "cover",
   "menu": "Activate Your M.V.P. Under Pressure",
   "dark": true,
-  "photo": "tennis",
+  "photo": "ai_pc_window_call",
   "kicker": "LESSON 4",
   "heading": "Activate Your M.V.P. Under Pressure",
-  "meta": "About 40 minutes here, then about 40 minutes in your week",
+  "meta": "About 35 minutes. Then one core rep this week.",
   "cta": "Start lesson",
   "lesson": "L4",
   "vo": [
@@ -3763,8 +3949,8 @@ window.SCREENS = [
   "type": "moment",
   "menu": "The Moment",
   "dark": true,
-  "photo": "man_writing",
-  "scene": "10:40 p.m. An email lands: the client has moved the deadline up two weeks. Your first instinct is to call an emergency team meeting for 7:00 a.m.",
+  "photo": "ai_pressure_desk",
+  "scene": "It's 10:40pm. An email lands: your company is merging with a competitor, and your team takes over their biggest account next month. Your first instinct is to call an emergency team meeting for 7am.",
   "lesson": "L4",
   "vo": [
    "pc_n_4_1"
@@ -3774,6 +3960,7 @@ window.SCREENS = [
   "id": "4.2",
   "type": "checkin",
   "menu": "Check-in",
+  "anchor": "Name the question you will ask before you solve.",
   "lesson": "L4",
   "vo": [
    "ci_a",
@@ -3787,8 +3974,8 @@ window.SCREENS = [
   "menu": "Last time",
   "q": "A roadblock hits your team. What is your first sentence?",
   "opts": [
-   "\"Here's how we fix this.\"",
-   "\"Okay, this is our new reality. What can we still accomplish?\""
+   "“Here's how we fix this.”",
+   "“Okay, this is our new reality. What can we still accomplish?”"
   ],
   "correct": 1,
   "ok": "Right. Under pressure that sentence is harder to say, and this lesson works on that.",
@@ -3802,7 +3989,7 @@ window.SCREENS = [
   "id": "4.4",
   "type": "objectives",
   "menu": "What you will practice",
-  "photo": "glass_meeting",
+  "photo": "man_writing",
   "practise": "Pause before you act, and ask before you solve.",
   "objs": [
    [
@@ -3823,7 +4010,8 @@ window.SCREENS = [
    [
     "Use it this week",
     "In one real conversation",
-    4
+    4,
+    "core"
    ]
   ],
   "lesson": "L4",
@@ -3857,6 +4045,7 @@ window.SCREENS = [
   "eyebrow": "YOUR RESILIENCE PLAY",
   "heading": "Your first move, before the meeting",
   "sub": "The CEO in the video takes a ten-minute walk.",
+  "motion": true,
   "steps": [
    {
     "label": "01",
@@ -3873,7 +4062,7 @@ window.SCREENS = [
    {
     "label": "03",
     "title": "Decide from clarity",
-    "text": "Then call the meeting, with a question.",
+    "text": "If you still need the meeting, open it with a question.",
     "c": 3
    },
    {
@@ -3905,33 +4094,34 @@ window.SCREENS = [
   "kind": "resistance",
   "eyebrow": "DIAGNOSE BEFORE YOU PUSH",
   "heading": "Three things people fear losing",
+  "test_label": "What to ask",
   "items": [
    {
     "k": "certainty",
     "name": "Certainty",
-    "sub": "\"I don't know what this means for me.\"",
+    "sub": "“I don't know what this means for me.”",
     "big": "?",
     "line": "Listen for questions about timing, roles and what happens next.",
-    "test": "Ask: \"What's the biggest unknown for you here?\"",
-    "icon": "alignment"
+    "test": "“What's the biggest unknown for you here?”",
+    "icon": "1"
    },
    {
     "k": "competence",
     "name": "Competence",
-    "sub": "\"I won't be able to do this well.\"",
+    "sub": "“I won't be able to do this well.”",
     "big": "Skill",
     "line": "Listen for worry about learning fast enough or looking slow.",
-    "test": "Ask: \"What would you need to feel ready?\"",
-    "icon": "resilience"
+    "test": "“What would you need to feel ready?”",
+    "icon": "2"
    },
    {
     "k": "connection",
     "name": "Connection",
-    "sub": "\"This changes who I work with.\"",
+    "sub": "“This changes who I work with.”",
     "big": "People",
     "line": "Listen for concern about teams, relationships and belonging.",
-    "test": "Ask: \"What are you most worried about losing?\"",
-    "icon": "wellbeing"
+    "test": "“What are you most worried about losing?”",
+    "icon": "3"
    }
   ],
   "lesson": "L4",
@@ -3948,7 +4138,7 @@ window.SCREENS = [
   "id": "4.10",
   "type": "example",
   "menu": "The software rollout",
-  "photo": "team_laptop",
+  "photo": "ai_ai_rollout",
   "eyebrow": "FROM VIDEO 4.3",
   "heading": "The software rollout",
   "blocks": [
@@ -3958,15 +4148,15 @@ window.SCREENS = [
    ],
    [
     "What she did",
-    "Held one-on-ones and asked, \"What is the biggest concern for you with this new system?\""
+    "Held one-on-ones and asked, “What is the biggest concern for you with this new system?”"
    ],
    [
     "What happened",
     "The fear was looking incompetent while they learned. She addressed that directly."
    ],
    [
-    "The lesson",
-    "The resistance you can see is rarely the one you need to address."
+    "The practice",
+    "Before you push on a change, ask what the person is worried about losing."
    ]
   ],
   "lesson": "L4",
@@ -3987,16 +4177,16 @@ window.SCREENS = [
   "id": "4.12",
   "type": "call",
   "menu": "Make the call",
-  "photo": "women_talking",
+  "photo": "ai_pc_manager_listening",
   "prompt": "Your Athleader's key vendor just pulled out. They're panicking in your check-in. What's your first sentence?",
   "opts": [
    {
-    "t": "\"Okay, here's what we'll do. Call these two alternatives today.\"",
+    "t": "“Okay, here's what we'll do. Call these two alternatives today.”",
     "fb": "Solved, and they learn that panic brings you in.",
     "vo": "pc_n_4_12_o0"
    },
    {
-    "t": "\"That's a tough break. What does this new constraint make possible?\"",
+    "t": "“That's a tough break. What does this new constraint make possible?”",
     "fb": "That's coaching for agility.",
     "best": true,
     "vo": "pc_n_4_12_o1"
@@ -4025,6 +4215,7 @@ window.SCREENS = [
   "pdf": "resources/PlayerCoach_Playbook_Lesson4.pdf",
   "total": "40",
   "cover": "assets/playercoach_playbook_cover.jpg",
+  "core": 2,
   "drills": [
    [
     "4.2",
@@ -4045,7 +4236,7 @@ window.SCREENS = [
     "The agility coaching question",
     "Agility",
     15,
-    3
+    0
    ]
   ],
   "lesson": "L4",
@@ -4092,7 +4283,7 @@ window.SCREENS = [
   "form": "pulse",
   "eyebrow": "PULSE CHECK · LESSON 4",
   "heading": "Your Pulse Check",
-  "note": "Your code is on the last page. Note it down, then select Next.",
+  "note": "Your code is on the last page. Copy the code or write it down, then select Next.",
   "fallback": "Form not loading? Open it in a new tab",
   "lesson": "L4",
   "vo": [
@@ -4110,7 +4301,7 @@ window.SCREENS = [
   "heading": "Enter your code",
   "prompt": "The code from the last page of the Pulse Check",
   "button": "Submit",
-  "ok": "Accepted. Lesson 4 is complete.",
+  "ok": "Accepted. Your Lesson 4 Pulse Check is in.",
   "back": "Back to the form",
   "lesson": "L4",
   "vo": [
@@ -4125,7 +4316,7 @@ window.SCREENS = [
   "key": "kc4",
   "qs": [
    {
-    "q": "A team member keeps \"forgetting\" to use the new process. What does diagnosing the resistance mean?",
+    "q": "A team member keeps “forgetting” to use the new process. What does diagnosing the resistance mean?",
     "opts": [
      "Enforcing it more firmly",
      "Asking what they might be afraid of losing",
@@ -4167,7 +4358,7 @@ window.SCREENS = [
     "wvo": "pc_n_4_18_w2"
    },
    {
-    "q": "Which fear is most likely behind this: \"I don't know what this change means for my role\"?",
+    "q": "Which fear is most likely behind this: “I don't know what this change means for my role”?",
     "opts": [
      "Certainty",
      "Competence",
@@ -4202,6 +4393,9 @@ window.SCREENS = [
     3
    ]
   ],
+  "book": "Chapter 7, p.107",
+  "book_note": "Agility: what to do when the ground beneath you shifts",
+  "motion": true,
   "lesson": "L4",
   "vo": [
    "pc_n_4_19"
@@ -4212,10 +4406,10 @@ window.SCREENS = [
   "type": "close",
   "menu": "Lesson 4 complete",
   "dark": true,
-  "photo": "lounge_meeting",
+  "photo": "ai_pc_coach_walk",
   "n": 4,
   "heading": "Lesson 4 complete",
-  "thisweek": "Write your first move, and use the agility question in one real conversation.",
+  "thisweek": "Your core rep: the agility question, in one real conversation. Then ask how it landed.",
   "next": "Lesson 5, Play the Season",
   "nextline": "Your energy first, then your team's recovery.",
   "lesson": "L4",
@@ -4228,10 +4422,10 @@ window.SCREENS = [
   "type": "cover",
   "menu": "Play the Season",
   "dark": true,
-  "photo": "sprinter",
+  "photo": "woman_profile",
   "kicker": "LESSON 5",
   "heading": "Play the Season: Sustainable Performance",
-  "meta": "About 40 minutes here, then about 55 minutes in your week",
+  "meta": "About 35 minutes. Then one core rep this week.",
   "cta": "Start lesson",
   "lesson": "L5",
   "vo": [
@@ -4243,8 +4437,8 @@ window.SCREENS = [
   "type": "moment",
   "menu": "The Moment",
   "dark": true,
-  "photo": "woman_talking",
-  "scene": "On Monday you told your team, \"Please protect your evenings.\" On Thursday you sent them four emails after 10 p.m.",
+  "photo": "ai_individual_notebook",
+  "scene": "On Monday you told your team, “Please protect your evenings.” On Thursday you sent them four emails after 10pm.",
   "lesson": "L5",
   "vo": [
    "pc_n_5_1"
@@ -4254,6 +4448,7 @@ window.SCREENS = [
   "id": "5.2",
   "type": "checkin",
   "menu": "Check-in",
+  "anchor": "Name the practice your team would see you keep.",
   "lesson": "L5",
   "vo": [
    "ci_a",
@@ -4282,13 +4477,14 @@ window.SCREENS = [
   "id": "5.4",
   "type": "objectives",
   "menu": "What you will practice",
-  "photo": "trail_runner",
+  "photo": "ai_reflect_window_woman",
   "practise": "Protect your energy where your team can see it.",
   "objs": [
    [
     "Audit your energy",
     "What drains you and what fuels you",
-    1
+    1,
+    "core"
    ],
    [
     "Protect one block",
@@ -4380,7 +4576,7 @@ window.SCREENS = [
   "id": "5.9",
   "type": "example",
   "menu": "Schedule-send after six",
-  "photo": "team_desk",
+  "photo": "ai_pc_team_huddle",
   "eyebrow": "FROM VIDEO 5.3",
   "heading": "Schedule-send after six",
   "blocks": [
@@ -4390,15 +4586,15 @@ window.SCREENS = [
    ],
    [
     "What he did",
-    "Said, \"I don't expect responses outside work hours,\" and asked everyone to schedule-send after 6 p.m. He did it first."
+    "Said, “I don't expect responses outside work hours,” and asked everyone to schedule-send after 6pm. He did it first."
    ],
    [
     "What happened",
     "The habit changed across the team."
    ],
    [
-    "The lesson",
-    "Name the practice, then be seen doing it."
+    "The practice",
+    "Name one practice out loud this week, then let your team see you keep it."
    ]
   ],
   "lesson": "L5",
@@ -4422,7 +4618,8 @@ window.SCREENS = [
   "style": "numbered",
   "eyebrow": "AFTER A HARD STRETCH",
   "heading": "Recover first, then plan",
-  "sub": "Velvet Suite gives a half-day reset at the end of every quarter.",
+  "sub": "Wins, lessons and something back. Then the plan.",
+  "motion": true,
   "steps": [
    {
     "label": "01",
@@ -4458,7 +4655,7 @@ window.SCREENS = [
   "id": "5.12",
   "type": "call",
   "menu": "Make the call",
-  "photo": "meeting_table",
+  "photo": "team_pointing",
   "prompt": "Quarter-end just finished and everyone is exhausted. The next-quarter plan is due Friday. What is the first team meeting?",
   "opts": [
    {
@@ -4496,27 +4693,28 @@ window.SCREENS = [
   "pdf": "resources/PlayerCoach_Playbook_Lesson5.pdf",
   "total": "55",
   "cover": "assets/playercoach_playbook_cover.jpg",
+  "core": 0,
   "drills": [
    [
     "5.2",
     "The personal energy audit",
     "Wellbeing",
     15,
-    1
+    0
    ],
    [
     "5.3",
     "Modeling sustainable practices",
     "Wellbeing",
     10,
-    2
+    1
    ],
    [
     "5.4",
     "The team recovery protocol",
     "Alignment",
     30,
-    3
+    2
    ]
   ],
   "lesson": "L5",
@@ -4563,7 +4761,7 @@ window.SCREENS = [
   "form": "pulse",
   "eyebrow": "PULSE CHECK · LESSON 5",
   "heading": "Your Pulse Check",
-  "note": "Your code is on the last page. Note it down, then select Next.",
+  "note": "Your code is on the last page. Copy the code or write it down, then select Next.",
   "fallback": "Form not loading? Open it in a new tab",
   "lesson": "L5",
   "vo": [
@@ -4581,7 +4779,7 @@ window.SCREENS = [
   "heading": "Enter your code",
   "prompt": "The code from the last page of the Pulse Check",
   "button": "Submit",
-  "ok": "Accepted. Lesson 5 is complete.",
+  "ok": "Accepted. Your Lesson 5 Pulse Check is in.",
   "back": "Back to the form",
   "lesson": "L5",
   "vo": [
@@ -4598,7 +4796,7 @@ window.SCREENS = [
    {
     "q": "Which of these is modeling a sustainable practice, rather than announcing one?",
     "opts": [
-     "Adding \"we value balance\" to the team charter",
+     "Adding “we value balance” to the team charter",
      "Telling the team to take breaks",
      "Leaving at 5:30 yourself, visibly, and saying why",
      "Sending the team an article on wellbeing"
@@ -4673,6 +4871,8 @@ window.SCREENS = [
     3
    ]
   ],
+  "book": "Chapter 10, p.163",
+  "book_note": "Wellbeing: sustain your energy",
   "lesson": "L5",
   "vo": [
    "pc_n_5_19"
@@ -4683,10 +4883,10 @@ window.SCREENS = [
   "type": "close",
   "menu": "Lesson 5 complete",
   "dark": true,
-  "photo": "team_cafe",
+  "photo": "stage",
   "n": 5,
   "heading": "Lesson 5 complete",
-  "thisweek": "Run your energy audit, keep one visible practice, and put a recovery session on the calendar.",
+  "thisweek": "Your core rep: your energy audit. Then ask one person how it landed.",
   "next": "Lesson 6, The Victory Lap and the Next Season",
   "nextline": "The habits you keep, and the Championship Conversation.",
   "lesson": "L5",
@@ -4699,10 +4899,10 @@ window.SCREENS = [
   "type": "cover",
   "menu": "The Victory Lap and the Next Season",
   "dark": true,
-  "photo": "celebrate",
+  "photo": "ai_pc_stadium_stairs",
   "kicker": "LESSON 6",
   "heading": "The Victory Lap and the Next Season",
-  "meta": "About 40 minutes here, then about an hour for your Playbook and the post-assessment",
+  "meta": "About 35 minutes. Then one core rep and your post‑assessment.",
   "cta": "Start lesson",
   "lesson": "L6",
   "vo": [
@@ -4714,8 +4914,8 @@ window.SCREENS = [
   "type": "moment",
   "menu": "The Moment",
   "dark": true,
-  "photo": "pair_laptop",
-  "scene": "Your Athleader finishes the experience. In your check-in you say, \"Well done.\" Nobody above you hears about it, and their next quarter looks like the last one.",
+  "photo": "ai_pc_checkin_coffee",
+  "scene": "Your Athleader finishes the experience. In your weekly one-on-one you say, “Well done.” Nobody above you hears about it, and their next quarter looks like the last one.",
   "lesson": "L6",
   "vo": [
    "pc_n_6_1"
@@ -4725,6 +4925,7 @@ window.SCREENS = [
   "id": "6.2",
   "type": "checkin",
   "menu": "Check-in",
+  "anchor": "Name one moment you saw your Athleader lead differently.",
   "lesson": "L6",
   "vo": [
    "ci_a",
@@ -4753,7 +4954,7 @@ window.SCREENS = [
   "id": "6.4",
   "type": "objectives",
   "menu": "What you will practice",
-  "photo": "celebrate",
+  "photo": "team_laptop",
   "practise": "Make the win visible, then point it forward.",
   "objs": [
    [
@@ -4764,7 +4965,8 @@ window.SCREENS = [
    [
     "Celebrate your Athleader",
     "In a way that fits them",
-    2
+    2,
+    "core"
    ],
    [
     "Provide visibility",
@@ -4804,7 +5006,7 @@ window.SCREENS = [
   "id": "6.7",
   "type": "compare",
   "menu": "Which habits stay?",
-  "photo": "man_writing",
+  "photo": "team_wheelchair",
   "eyebrow": "HARDWIRE YOUR HABITS",
   "heading": "Which habits stay?",
   "cols": [
@@ -4854,7 +5056,7 @@ window.SCREENS = [
   "style": "numbered",
   "eyebrow": "YOUR LAST PLAY CALL",
   "heading": "The Championship Conversation",
-  "sub": "Three parts, one conversation. Guide in Playbook Drill 6.3.",
+  "sub": "Three parts, one conversation. The full guide is in Playbook Drill 6.3.",
   "steps": [
    {
     "label": "01",
@@ -4865,13 +5067,13 @@ window.SCREENS = [
    {
     "label": "02",
     "title": "Provide visibility",
-    "text": "Fifteen minutes with your own leader: \"I want you to hear about the great work Sarah is doing.\"",
+    "text": "Fifteen minutes with your own leader: “I want you to hear about the great work Sarah is doing.”",
     "c": 2
    },
    {
     "label": "03",
     "title": "Plan the next season",
-    "text": "\"Based on everything you've learned, what's your focus for the next 90 days?\"",
+    "text": "“Based on everything you've learned, what's your focus for the next 90 days?”",
     "c": 3
    }
   ],
@@ -4884,7 +5086,7 @@ window.SCREENS = [
   "id": "6.10",
   "type": "example",
   "menu": "Fifteen minutes upstairs",
-  "photo": "glass_meeting",
+  "photo": "ai_handshake_commitment",
   "eyebrow": "FROM VIDEO 6.3",
   "heading": "Fifteen minutes upstairs",
   "blocks": [
@@ -4893,16 +5095,16 @@ window.SCREENS = [
     "Sarah finished the experience and used it on a real project."
    ],
    [
-    "What her manager did",
+    "Her manager",
     "Sent a team-wide note naming the project, then booked a coffee with her own boss and Sarah."
    ],
    [
     "What she said",
-    "\"I want you to hear about the great work Sarah is doing.\""
+    "“I want you to hear about the great work Sarah is doing.”"
    ],
    [
-    "The lesson",
-    "Advocacy is the part of coaching only you can do. It takes fifteen minutes."
+    "The practice",
+    "Book fifteen minutes with your own leader to talk about your Athleader's work."
    ]
   ],
   "lesson": "L6",
@@ -4924,7 +5126,7 @@ window.SCREENS = [
   "type": "lookback",
   "menu": "Your one behavior",
   "key": "behavior",
-  "photo": "woman_lookup",
+  "photo": "woman_writing",
   "eyebrow": "WHERE YOU STARTED",
   "heading": "The behavior you chose in Lesson 1",
   "prompt": "How have you made progress on it this season? Name one moment.",
@@ -4938,16 +5140,16 @@ window.SCREENS = [
   "id": "6.13",
   "type": "call",
   "menu": "Make the call",
-  "photo": "women_talking",
-  "prompt": "Final check-in. Your Athleader says, \"So... that's it, then?\" What is your last question of the season?",
+  "photo": "ai_pc_checkin_coffee",
+  "prompt": "Final check-in. Your Athleader says, “So… that's it, then?” What is your last question of the season?",
   "opts": [
    {
-    "t": "\"Yes. Great job. Let's get back to the Q4 numbers next week.\"",
+    "t": "“Yes. Great job. Let's get back to the Q4 numbers next week.”",
     "fb": "The experience ends here, and so does the growth.",
     "vo": "pc_n_6_13_o0"
    },
    {
-    "t": "\"This was a great season. Based on everything you've learned, what's your focus for the next 90 days?\"",
+    "t": "“This was a great season. Based on everything you've learned, what's your focus for the next 90 days?”",
     "fb": "That's the third part of the Championship Conversation.",
     "best": true,
     "vo": "pc_n_6_13_o1"
@@ -4974,8 +5176,10 @@ window.SCREENS = [
   "type": "playbook",
   "menu": "Put in the reps",
   "pdf": "resources/PlayerCoach_Playbook_Lesson6.pdf",
-  "total": "55",
+  "total": "60",
   "cover": "assets/playercoach_playbook_cover.jpg",
+  "core": 1,
+  "feedback": "Run your core rep, then ask your Athleader how it landed.",
   "drills": [
    [
     "6.2",
@@ -4989,14 +5193,14 @@ window.SCREENS = [
     "The Championship Conversation",
     "Alignment",
     30,
-    2
+    0
    ],
    [
     "Assessment",
     "Your post-assessment",
     "All four",
-    10,
-    3
+    15,
+    2
    ]
   ],
   "lesson": "L6",
@@ -5043,7 +5247,7 @@ window.SCREENS = [
   "form": "pulse",
   "eyebrow": "PULSE CHECK · LESSON 6",
   "heading": "Your Pulse Check",
-  "note": "Your code is on the last page. Note it down, then select Next.",
+  "note": "Your code is on the last page. Copy the code or write it down, then select Next.",
   "fallback": "Form not loading? Open it in a new tab",
   "lesson": "L6",
   "vo": [
@@ -5061,7 +5265,7 @@ window.SCREENS = [
   "heading": "Enter your code",
   "prompt": "The code from the last page of the Pulse Check",
   "button": "Submit",
-  "ok": "Accepted. Lesson 6 is complete.",
+  "ok": "Accepted. Your Lesson 6 Pulse Check is in.",
   "back": "Back to the form",
   "lesson": "L6",
   "vo": [
@@ -5076,7 +5280,7 @@ window.SCREENS = [
   "key": "kc6",
   "qs": [
    {
-    "q": "What does \"provide visibility\" mean in the Championship Conversation?",
+    "q": "What does “provide visibility” mean in the Championship Conversation?",
     "opts": [
      "Giving detailed feedback on their Playbook",
      "Making sure people above you hear what they did",
@@ -5153,6 +5357,9 @@ window.SCREENS = [
     3
    ]
   ],
+  "book": "Chapter 12, p.201",
+  "book_note": "Scale the system: build the culture, become the Player-Coach",
+  "motion": true,
   "lesson": "L6",
   "vo": [
    "pc_n_6_20"
@@ -5162,11 +5369,11 @@ window.SCREENS = [
   "id": "E1",
   "type": "laststep",
   "menu": "One last step",
-  "photo": "glass_meeting",
+  "photo": "ai_tunnel_light",
   "eyebrow": "ONE LAST STEP",
   "heading": "Your post-assessment",
-  "line": "See what changed since your starting point.",
-  "stat": "8",
+  "line": "All six lessons, done. See what changed since your starting point. Your Growth Guide comes with your results.",
+  "stat": "15",
   "stat_text": "minutes: the same questions as before Lesson 1, then a few about your Athleader",
   "lesson": "L6",
   "vo": [
@@ -5181,7 +5388,7 @@ window.SCREENS = [
   "form": "post",
   "eyebrow": "ONE LAST STEP",
   "heading": "Your post-assessment",
-  "note": "Your code is on the last page. Note it down, then select Next.",
+  "note": "Your code is on the last page. Copy the code or write it down, then select Next.",
   "fallback": "Form not loading? Open it in a new tab",
   "lesson": "L6",
   "vo": [
@@ -5203,18 +5410,8 @@ window.SCREENS = [
   "lesson": "L6",
   "vo": [
    "pc_n_E2"
-  ]
- },
- {
-  "id": "E4",
-  "type": "share",
-  "menu": "Share that you finished",
-  "post": "I've completed the M.V.P. Accelerator as a Player-Coach. Conditioned to lead, and to coach, when the moment demands it.",
-  "card_title": "Player-Coach, M.V.P. Accelerator",
-  "lesson": "L6",
-  "vo": [
-   "pc_n_E4"
-  ]
+  ],
+  "guide": "Your Growth Guide comes with your results. Put it next to the one from the start of your season."
  },
  {
   "id": "E5",
@@ -5225,8 +5422,8 @@ window.SCREENS = [
   "compare_label": "The behavior you chose, and what changed",
   "l1_label": "Lesson 1, the behavior you chose",
   "l6_label": "Lesson 6, your progress on it",
-  "blank1": "You left this one blank in Lesson 1.",
-  "blank6": "You left this one blank in Lesson 6.",
+  "blank1": "",
+  "blank6": "",
   "lesson": "L6",
   "wall": false,
   "cta": "Get your certificate"
@@ -5239,7 +5436,7 @@ window.SCREENS = [
   "heading": "Your certificate",
   "name_label": "Your name, as it should appear",
   "button": "Download my certificate",
-  "note": "Saved as a PDF you can print or keep.",
+  "note": "Saved as a PDF you can print, keep, or share on LinkedIn on the next screen.",
   "bg": "assets/certificate_background.jpg",
   "layout": {
    "page_pt": [
@@ -5269,20 +5466,39 @@ window.SCREENS = [
   ]
  },
  {
+  "id": "E4",
+  "type": "share",
+  "menu": "Share that you finished",
+  "post": "I've completed the M.V.P. Accelerator as a Player-Coach. Conditioned to lead, and to coach, when the moment demands it.",
+  "card_title": "Player-Coach, M.V.P. Accelerator",
+  "lesson": "L6",
+  "vo": [
+   "pc_n_E4"
+  ],
+  "vo_off": [
+   "pc_n_E4_off"
+  ]
+ },
+ {
   "id": "E7",
   "type": "formembed",
-  "menu": "Wall of Fame",
+  "menu": "Pay it forward",
   "form": "wall",
-  "eyebrow": "THE WALL OF FAME",
+  "eyebrow": "PAY IT FORWARD",
   "heading": "Leave a message for the next group of Player-Coaches",
-  "note": "Optional. When you submit, you are done.",
+  "note": "Optional. Select Finish when you're done.",
   "fallback": "Form not loading? Open it in a new tab",
   "lesson": "L6",
   "vo": [
-   "r2_form_wall"
+   "r2_pc_form_wall"
   ],
   "optional": true,
-  "last": true
+  "last": true,
+  "connect": {
+   "line": "I'd like to stay connected to the Athleadership Community. Get access to podcasts, newsletters and events.",
+   "button": "Stay connected",
+   "href": "https://athleadershiparena.com"
+  }
  }
 ];
 window.PROS = {
@@ -5333,12 +5549,12 @@ window.PROS = {
    [
     "Sync the Focus",
     90,
-    "Each person names the top priority in one sentence. Capture the common thread."
+    "Each person names the top priority and one blocker to that outcome. Capture the common thread."
    ],
    [
     "Flow Trigger Action",
     30,
-    "Agree one small action for today: timebox deep work, remove a blocker, or celebrate a win."
+    "Collectively agree on one small action today to move forward together: timebox deep work, solve for the blocker, or celebrate a win."
    ]
   ]
  },
@@ -5461,7 +5677,7 @@ window.DRILLS = {
   "title": "First Read",
   "tag": "BASELINE",
   "nar": [
-   "Before any coaching, take one clean read of how you react. This drill is short.",
+   "Now take one clean read of how you react, before you learn the rest of the system. This drill is short.",
    "Press play. Melissa will stop partway through and ask what you notice. Type your answer, and the video carries on."
   ],
   "beats": [
@@ -5506,8 +5722,8 @@ window.DRILLS = {
   "title": "The Plan Just Changed",
   "tag": "CHANGE",
   "nar": [
-   "Time for the drill. It puts you under a little pressure and asks you to respond.",
-   "Press play. The video stops a few times so you can answer, and it carries on when you're done."
+   "Time for the drill. The Moment gave you time to think. This drill gives you a few seconds, under a little pressure, so you feel how you respond.",
+   "Press play. The video stops a few times so you can answer, and it carries on when you're done. Your Playbook pages come right after."
   ],
   "opts": [
    "Push back and defend the original plan",
@@ -5845,7 +6061,7 @@ window.DRILLS = {
  "L6": {
   "video": "drill_l6",
   "title": "All At Once",
-  "tag": "ALL FIVE CONDITIONS",
+  "tag": "EVERYTHING AT ONCE",
   "nar": [
    "Time for the last drill of the season. Everything you've practiced arrives at once.",
    "Press play. Melissa will stop three times and ask you something. Take the time you need, and the video carries on when you're done."
@@ -5921,7 +6137,7 @@ window.DRILLS = {
     "key": "notice",
     "kind": "text",
     "label": "NOTICE",
-    "q": "What do you notice right now, with all five at once?"
+    "q": "What do you notice right now, with all of it at once?"
    },
    {
     "t": 76.25,
@@ -5945,6 +6161,11 @@ window.DRILLS = {
 window.VIDEOS = {
  "opener": {
   "src": "media/opener.mp4",
+  "poster": null,
+  "cc": null
+ },
+ "anthem": {
+  "src": "media/anthem.mp4",
   "poster": null,
   "cc": null
  },
