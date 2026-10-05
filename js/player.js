@@ -1169,7 +1169,7 @@
         ${a1 ? `<div class="answer"><b>${esc(F(s, 'l1_label'))}</b><p>${esc(a1)}</p></div>` : ''}
         ${a6 ? `<div class="answer"><b>${esc(F(s, 'l6_label'))}</b><p>${esc(a6)}</p></div>` : ''}
         ${pats ? `<span class="tag" style="margin:12px 0 10px">${esc(F(s, 'patterns_label'))}</span><div class="pchips">${pats}</div>` : ''}
-        ${words ? `<div class="answer words"><b>${esc(F(s, 'words_label'))}</b><p>${esc(words)}</p></div>` : ''}</div></div>`,
+        ${words && !(a1 && a6 && pats) ? `<div class="answer words"><b>${esc(F(s, 'words_label'))}</b><p>${esc(words)}</p></div>` : ''}</div></div>`,
       after: () => { mountVideo($('#vb'), s.video, { label: F(s, 'video_label'), autoplay: true }); $('#savePage').addEventListener('click', () => window.print()); bindNext(); }
     };
   };

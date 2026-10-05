@@ -1425,6 +1425,7 @@ window.COURSE = {
   "alt": "M.V.P. Accelerator, powered by Athleadership Arena"
  },
  "photo_pos": {
+  "team_wheelchair": "32% 28%",
   "ai_ai_rollout": "92% 40%",
   "ai_celebration_team": "50% 40%",
   "ai_coach_colleague": "58% 18%",
