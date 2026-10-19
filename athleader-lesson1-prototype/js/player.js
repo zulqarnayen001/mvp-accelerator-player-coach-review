@@ -2631,6 +2631,7 @@
       pg: 6, drill: '1.2', tag: 'Extra rep, if you have time', mins: 'About 5 minutes', title: 'Your Initial A.R.A.W. Baseline Check',
       lead: 'This isn’t a test. It’s your starting point. Be honest with yourself. On a scale of 1 (Needs Significant Conditioning) to 5 (Currently a Key Strength), rate your current capacity in each of the Core 4 leadership muscles.',
       body: `<p class="pbp-note b" data-c="1">Your ratings from “Your Starting Line” are already here. Change any of them and they change there too.</p>
+        <div class="pbp-sum">${CORE().map(p => `<button type="button" class="pbp-st" data-to="${esc(p)}" aria-label="${esc(p)}: ${st.base[p] ? 'rated ' + st.base[p] : 'not rated yet'}. Go to it to change it."><span>${esc(p)}</span><b data-sum="${esc(p)}">${st.base[p] || '–'}</b></button>`).join('')}</div>
         <div class="pbp-rates">${CORE().map(p => `<div${B(1, 'pbp-rate')}><div class="pbp-rh"><img src="${ICON[p.toLowerCase()]}" alt=""><b>${esc(p)}</b></div><p>${esc(PB_BASE[p])}:</p>${rateRow(p, 'base', 'Baseline')}</div>`).join('')}</div>
         <p class="pbp-note b" data-c="1">1 = Needs Significant Conditioning · 5 = Currently a Key Strength. You’ll rate yourself again in Lesson 6.</p>
         ${pbArea('pb1_bnotes', 'My notes:', 2, 1)}`
@@ -2678,6 +2679,11 @@
         $$('#slide [data-g="base"]').forEach(b => b.addEventListener('click', () => {   // the same ratings as "Your Starting Line"
           const p = b.dataset.p; st.base[p] = +b.dataset.n; save(); logInteraction('baseline_' + p, 'likert', b.dataset.n, 'neutral');
           $$(`#slide [data-g="base"][data-p="${p}"]`).forEach(x => x.setAttribute('aria-checked', x === b)); saved(); updateNav();
+          const sv = $(`#slide [data-sum="${p}"]`); if (sv) { sv.textContent = b.dataset.n; sv.parentNode.setAttribute('aria-label', `${p}: rated ${b.dataset.n}. Go to it to change it.`); }
+        }));
+        $$('#slide .pbp-st').forEach(t => t.addEventListener('click', () => {   // jump to that rating's card
+          const r = $(`#slide [data-g="base"][data-p="${t.dataset.to}"][aria-checked="true"]`) || $(`#slide [data-g="base"][data-p="${t.dataset.to}"]`);
+          if (!r) return; r.closest('.pbp-rate').scrollIntoView({ behavior: REDUCE ? 'auto' : 'smooth', block: 'center' }); r.focus({ preventScroll: true });
         }));
         const m = $('#slide .pbp .t3endmsg');
         const make = async how => {

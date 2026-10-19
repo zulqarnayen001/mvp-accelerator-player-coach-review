@@ -631,6 +631,15 @@ body:not(.portrait) .pb-feedback #pb_pb1_fbwhat{height:190px}
 body.portrait .pbp-saved{position:static;text-align:right;margin:2px 0 0}
 body.portrait .pbp-i input{display:inline-block;width:calc(100% - 34px);margin:4px 0}
 
+/* Oct 19 (Melissa): Drill 1.2 on a phone held upright showed only the first rating on the first screen. All four sit
+   under the note at a glance; each one jumps to its card. Not shown on wider layouts, where all four cards are in view. */
+.pbp-sum{display:none}
+body.portrait .pbp-sum{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:2px 0}
+.pbp-st{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:48px;padding:8px 14px;border:1px solid var(--line);border-radius:12px;background:var(--mist2);font:inherit;color:var(--navy);cursor:pointer;text-align:left}
+.pbp-st span{font-size:var(--t-small);font-weight:700}
+.pbp-st b{font-size:var(--t-lead);line-height:1;min-width:20px;text-align:right}
+.pbp-st:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+
 /* =====================================================================================================================
    Oct 18: layouts that change with the course type scale (typescale.py). Carry these into the course build with it.
    ===================================================================================================================== */
