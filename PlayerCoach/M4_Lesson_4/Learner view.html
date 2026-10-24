@@ -6,7 +6,8 @@
 <title>Lesson 4 · Player-Coach · M.V.P. Accelerator</title>
 <link rel="icon" href="assets/star.svg">
 <link rel="stylesheet" href="css/fonts.css">
-<link rel="stylesheet" href="css/player.css?v=20261011m">
+<link rel="stylesheet" href="css/player.css?v=20261022b">
+<link rel="stylesheet" href="css/responsive.css?v=20261022b">
 </head>
 <body>
 <a class="skip" href="#slide">Skip to the course screen</a>
@@ -15,7 +16,7 @@
     <button class="icon-btn" id="btnMenu" aria-label="Show or hide the course menu" aria-expanded="true" aria-controls="sidebar">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
     </button>
-    <span class="top-mark arena" role="img" aria-label="Athleadership Arena"><svg viewBox="0 0 30 26" aria-hidden="true"><defs><linearGradient id="arenaG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F1E2BC"/><stop offset=".55" stop-color="#C9A45C"/><stop offset="1" stop-color="#8E6E2E"/></linearGradient></defs><g fill="url(#arenaG)"><rect x="1.3" y="7.2" width="4.2" height="17.8" rx=".8"/><rect x="7.1" y="4.6" width="4.2" height="20.4" rx=".8"/><rect x="12.9" y="3" width="4.2" height="22" rx=".8"/><rect x="18.7" y="4.6" width="4.2" height="20.4" rx=".8"/><rect x="24.5" y="7.2" width="4.2" height="17.8" rx=".8"/></g></svg><span class="arena-name" aria-hidden="true">Athleadership Arena</span></span>
+    <img class="top-mark arena-logo" src="assets/brand/arena_logo_h_white.svg" alt="Athleadership Arena">
     <div class="top-title"><span class="course-name">M.V.P. Accelerator</span><span class="track-name"></span></div>
     <div class="top-where"><span class="top-lesson" id="topLesson" aria-live="polite"></span><span class="counter" id="counter"></span></div>
     <div class="top-right">
@@ -86,9 +87,11 @@
 </div>
 
 <audio id="vo" preload="auto"></audio>
-<script src="js/captions.js?v=20261011m"></script>
-<script src="js/narration.js?v=20261011m"></script>
-<script src="js/content.js?v=20261011m"></script>
-<script src="js/player.js?v=20261011m"></script>
+<script src="js/captions.js?v=20261022b"></script>
+<script src="js/narration.js?v=20261022b"></script>
+<script src="js/content.js?v=20261022b"></script>
+<script src="js/vendor/pdf.min.js"></script>
+<script src="js/vendor/pdf-lib.min.js"></script>
+<script src="js/player.js?v=20261022b"></script>
 </body>
 </html>

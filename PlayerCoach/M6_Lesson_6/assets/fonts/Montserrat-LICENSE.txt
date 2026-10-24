@@ -1,0 +1,8 @@
+Montserrat font (Montserrat-VF.ttf, Montserrat-Italic-VF.ttf)
+
+Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://openfontlicense.org
+
+The copyright notice and licence statement above are copied from the font files' own metadata.
