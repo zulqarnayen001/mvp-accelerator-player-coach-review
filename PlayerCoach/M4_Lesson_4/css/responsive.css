@@ -942,3 +942,25 @@ body.portrait .dropdown-menu{min-width:0;width:min(380px,calc(100vw - 16px))}
 body.portrait .beats span{white-space:nowrap;letter-spacing:.08em;padding:7px 9px}
 body.portrait .drill .vwrap{top:132px}
 @media (max-width:389px){body.portrait .drill .vwrap{top:152px}}
+@media (max-width:480px){.modal-card{padding:24px 20px}.modal-actions{flex-wrap:wrap}.modal-actions .btn{flex:1 1 100%;white-space:normal}}
+body.portrait .slide.wls-intro{display:flex;flex-direction:column}
+body.portrait .slide.wls-intro > *{flex-shrink:0}
+body.portrait .wls-intro .wf-left{display:contents}
+body.portrait .wls-intro .wf-left > .eyebrow{order:1;margin:18px 20px 4px}
+body.portrait .wls-intro .wf-title{order:2;margin:0 20px 8px;font-size:calc(var(--t-h1) * 1.3)}
+body.portrait .wls-intro .wf-sub{order:3;margin:0 20px}
+body.portrait .wls-intro .wf-right{order:4;position:relative;inset:auto;margin:16px 20px 0}
+body.portrait .wls-intro .wf-cta{order:5;margin:16px 20px 0}
+body.portrait .wf-people{grid-template-columns:repeat(2,minmax(0,1fr))}
+body.portrait .wf-people.n3{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+body.portrait .wf-people.n3 .wf-card .chip{margin:8px 4px 5px;padding:2px 5px;font-size:var(--t-tag);letter-spacing:0;text-transform:none;white-space:normal;max-width:calc(100% - 8px)}
+body.portrait .wf-people.n3 .wf-card .nm,body.portrait .wf-people.n3 .wf-card .co{margin-left:7px;margin-right:6px}
+body.portrait .wf-quote{flex:none;flex-wrap:wrap;gap:12px}
+body.portrait .wf-quote .qm{font-size:56px;padding-right:12px}
+body.portrait .wf-quote .qt{flex:1 1 200px}
+body.portrait .wf-quote .dots{width:100%;justify-content:center}
+body.portrait .wallscr .wf-explore{order:6;position:relative;inset:auto;margin:16px 20px 0;flex-wrap:wrap}
+body.portrait .wf-explore .btn{width:100%;white-space:normal}
+body.portrait .wl-thanks.wf-thanks{top:auto;bottom:auto}
+body.portrait .wf-card .ph{aspect-ratio:1/1}
+body.portrait .fv iframe.vmo,body.portrait .fv .vmo-poster,body.portrait .fv .vmo-hit{top:calc(50% - 117px);height:233px;bottom:auto}
