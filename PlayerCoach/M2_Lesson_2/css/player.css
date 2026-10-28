@@ -1473,7 +1473,7 @@ body:not(.portrait) .wallscr .wl-formcard{top:20px;bottom:160px}
 .wf-meta .mi{white-space:nowrap}
 .vmo{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000;z-index:0}
 .vmo-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;pointer-events:none;transition:opacity .45s ease}
-.vfade.on .vmo-poster{opacity:0}
+.vfade.vplay .vmo-poster{opacity:0}   
 .vmo-hit{position:absolute;inset:0;z-index:1;cursor:pointer}
 .vfade iframe.vmo{opacity:0;transition:opacity .45s ease}
 .vfade.on iframe.vmo{opacity:1}
@@ -1482,3 +1482,24 @@ body:not(.portrait) .wallscr .wl-formcard{top:20px;bottom:160px}
 .vmo-fail p{margin:0;max-width:520px;font-size:var(--t-lead);line-height:1.4}
 .vmo-fail .row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
 .vmo-fail .btn.ghost{color:#fff;border-color:rgba(255,255,255,.7)}
+.endcard #endLine:focus{outline:none}
+.endcard #endLine.flash{color:#fff;font-weight:700}
+.readyline{margin:14px 0 0;font-size:var(--t-body);line-height:1.4;color:#E6ECF3}
+.kcwrap.tight .kcq{margin-bottom:14px}
+.kcwrap.tight .kc-opts{gap:8px}
+.kcwrap.tight .kc-opt{padding:12px 20px}
+.kcwrap.tight .fbc{margin-top:14px;padding:12px 22px}
+.kcwrap.tight .kc-foot{margin-top:12px}
+.kcwrap.tighter .kc-opt{padding:8px 18px;line-height:1.3}
+.kcwrap.tighter .kc-top .eyebrow{margin-bottom:6px}
+.wallscr.wls-intro .wf-explore{bottom:118px}
+.wallscr .wf-connect{position:absolute;left:52px;right:48px;bottom:62px;display:flex;align-items:center;gap:18px}
+.wf-connect p{flex:1;min-width:0;margin:0;font-size:var(--t-small);line-height:1.35;color:#E6ECF3}
+.wf-connect .btn{flex:none}
+.sidebar{display:flex;flex-direction:column}
+.sidebar > *{flex:none}
+.sidebar .relabel{margin:auto 0 0;padding:18px 18px 16px;font-size:13px;line-height:1.35;letter-spacing:.02em;color:#9FB0C6}
+.engine .stat small.src{display:block;margin-top:6px;font-size:var(--t-tag);line-height:1.35;font-weight:500;color:#C9D3E0}
+body.portrait .enginescr .engine .stat > div{flex-wrap:wrap;row-gap:2px}
+body.portrait .enginescr .engine .stat > div > span{flex:1 1 180px}
+body.portrait .enginescr .engine .stat small.src{flex-basis:100%;margin-top:0}

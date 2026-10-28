@@ -148,10 +148,6 @@
       <file href="js/narration.js"/>
       <file href="js/playbook.js"/>
       <file href="js/player.js"/>
-      <file href="js/res/90-Day_Way_Core_4_Scorecard.pdf.js"/>
-      <file href="js/res/90-Day_Way_Core_4_Scorecard_Example.pdf.js"/>
-      <file href="js/res/Commitment_and_Starting_Line_Agenda.pdf.js"/>
-      <file href="js/res/PlayerCoach_Playbook_Full_Season.pdf.js"/>
       <file href="js/scorm.js"/>
       <file href="js/vendor/pdf-lib.LICENSE.md"/>
       <file href="js/vendor/pdf-lib.min.js"/>
