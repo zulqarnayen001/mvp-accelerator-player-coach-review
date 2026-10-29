@@ -972,3 +972,12 @@ body:not(.portrait) .pbp.fit2 .pbf .pbpick{padding:4px 10px}
 textarea.rsin{resize:none;line-height:1.35;overflow:hidden}
 body.portrait .wallscr .wf-connect{order:7;position:relative;inset:auto;margin:12px 20px 0;flex-wrap:wrap}
 body.portrait .wf-connect .btn{width:100%;white-space:normal}
+body.portrait .slide.wallpeople{display:flex;flex-direction:column}
+body.portrait .slide.wallpeople > *{flex-shrink:0}
+body.portrait .wallpeople .wp-head{position:relative;inset:auto;margin:18px 20px 0}
+body.portrait .wallpeople .wf-title{font-size:calc(var(--t-h1) * 1.3)}
+body.portrait .wp-people{position:relative;inset:auto;margin:14px 20px 0;grid-template-columns:1fr;gap:12px}
+body.portrait .wp-card{display:grid;grid-template-columns:84px minmax(0,1fr);align-items:center}
+body.portrait .wp-card .ph{height:84px;min-height:0}
+body.portrait .wp-card figcaption{padding:10px 12px}
+body.portrait .wp-card blockquote{grid-column:1 / -1;margin:0 14px 14px;overflow:visible}

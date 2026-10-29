@@ -1503,3 +1503,22 @@ body:not(.portrait) .wallscr .wl-formcard{top:20px;bottom:160px}
 body.portrait .enginescr .engine .stat > div{flex-wrap:wrap;row-gap:2px}
 body.portrait .enginescr .engine .stat > div > span{flex:1 1 180px}
 body.portrait .enginescr .engine .stat small.src{flex-basis:100%;margin-top:0}
+.wallpeople .wp-head{position:absolute;left:44px;right:44px;top:26px}
+.wallpeople .wp-head > .eyebrow{margin:0 0 6px}
+.wallpeople .wf-title{margin:0 0 8px}
+.wp-people{position:absolute;left:44px;right:44px;top:156px;bottom:92px;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.wp-people > li{display:flex;min-height:0}
+.wp-card{display:flex;flex-direction:column;width:100%;margin:0;border-radius:16px;overflow:hidden;background:rgba(255,255,255,.06);border:1px solid rgba(201,164,92,.38)}
+.wp-card .ph{flex:none;display:block;height:37%;min-height:80px;background:#1B355A;overflow:hidden}
+.wp-card img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 25%}
+.wp-card figcaption{display:flex;flex-wrap:wrap;align-items:center;gap:3px 8px;padding:10px 14px 0}
+.wp-card .chip{padding:3px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.5);font-size:var(--t-tag);font-weight:700;letter-spacing:.03em;text-transform:uppercase;line-height:1.3;color:#fff}
+.wp-card .chip.pc{border-color:var(--gold);color:var(--gold-l)}
+.wp-card .nm{font-size:var(--t-small);font-weight:800;line-height:1.25;color:#fff}
+.wp-card .co{width:100%;font-size:var(--t-small);line-height:1.25;color:#C9D3E0}
+.wp-card blockquote{flex:1;min-height:0;overflow:auto;margin:8px 14px 12px;padding-left:10px;border-left:2px solid var(--gold);font-size:var(--t-small);font-style:italic;line-height:1.4;color:#fff}
+.wallscr.wls-solo .wf-left{right:48px;width:auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);align-content:center;column-gap:44px}
+.wallscr.wls-solo .wf-left > .eyebrow{grid-column:1;grid-row:1}
+.wallscr.wls-solo .wf-title{grid-column:1;grid-row:2}
+.wallscr.wls-solo .wf-sub{grid-column:1;grid-row:3;align-self:start}
+.wallscr.wls-solo .wf-cta{grid-column:2;grid-row:1 / span 3;margin-top:0;align-self:center}
